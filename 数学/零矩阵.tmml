@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+
+<TeXmacs version="1.99.18">
+  <style><tuple><tm-arg>generic</tm-arg><tm-arg>chinese</tm-arg></tuple></style>
+  
+  <body>
+    <tm-par>
+      <doc-data><doc-title>零矩阵</doc-title></doc-data>
+    </tm-par>
+    
+    <tm-par>
+      <dfn>零矩阵</dfn>是所有元素都为0的矩阵。
+    </tm-par>
+    
+    <tm-par>
+      <section>数学软件</section>
+    </tm-par>
+    
+    <tm-par>
+      <subsection>Octave</subsection>
+    </tm-par>
+    
+    <tm-par>
+      <session>
+        <tm-arg>octave</tm-arg>
+        <tm-arg>default</tm-arg>
+        <tm-arg>
+          <tm-par>
+            <unfolded-io>
+              <tm-arg>
+                <tm-par xml:space="preserve">octave<tm-sym>gtr</tm-sym> </tm-par>
+              </tm-arg>
+              <tm-arg>
+                <tm-par>
+                  zeros(3)
+                </tm-par>
+              </tm-arg>
+              <tm-arg>
+                <tm-par>
+                  <with mode="math" math-display="true">
+                    <matrix>
+                      <tformat>
+                        <table>
+                          <tm-arg><row><tm-arg><cell><with mode="math">0.0</with></cell></tm-arg><tm-arg><cell><with
+                          mode="math">0.0</with></cell></tm-arg><tm-arg><cell><with
+                          mode="math">0.0</with></cell></tm-arg></row></tm-arg>
+                          <tm-arg><row><tm-arg><cell><with mode="math">0.0</with></cell></tm-arg><tm-arg><cell><with
+                          mode="math">0.0</with></cell></tm-arg><tm-arg><cell><with
+                          mode="math">0.0</with></cell></tm-arg></row></tm-arg>
+                          <tm-arg><row><tm-arg><cell><with mode="math">0.0</with></cell></tm-arg><tm-arg><cell><with
+                          mode="math">0.0</with></cell></tm-arg><tm-arg><cell><with
+                          mode="math">0.0</with></cell></tm-arg></row></tm-arg>
+                        </table>
+                      </tformat>
+                    </matrix>
+                  </with>
+                </tm-par>
+              </tm-arg>
+            </unfolded-io>
+          </tm-par>
+          
+          <tm-par>
+            <input>
+              <tm-arg>
+                <tm-par xml:space="preserve">octave<tm-sym>gtr</tm-sym> </tm-par>
+              </tm-arg>
+              <tm-arg>
+                <tm-par>
+                  
+                </tm-par>
+              </tm-arg>
+            </input>
+          </tm-par>
+        </tm-arg>
+      </session>
+    </tm-par>
+    
+    <tm-par>
+      
+    </tm-par>
+  </body>
+  
+  <initial>
+    <collection>
+      <associate>
+        <tm-arg>page-medium</tm-arg>
+        <tm-arg>paper</tm-arg>
+      </associate>
+    </collection>
+  </initial>
+  
+  <references>
+    <collection>
+      <tm-arg>
+        <associate>
+          <tm-arg>auto-1</tm-arg>
+          <tm-arg><tuple><tm-arg>1</tm-arg><tm-arg>1</tm-arg></tuple></tm-arg>
+        </associate>
+      </tm-arg>
+      <tm-arg>
+        <associate>
+          <tm-arg>auto-2</tm-arg>
+          <tm-arg><tuple><tm-arg>1.1</tm-arg><tm-arg>?</tm-arg></tuple></tm-arg>
+        </associate>
+      </tm-arg>
+    </collection>
+  </references>
+  
+  <auxiliary>
+    <collection>
+      <associate>
+        <tm-arg>toc</tm-arg>
+        <tm-arg>
+          <tm-par>
+            <vspace_42_>1fn</vspace_42_><with font-series="bold" math-font-series="bold">1<space>2spc</space>Octave</with>
+            <datoms><tm-arg><macro><tm-arg>x</tm-arg><tm-arg><repeat><tm-arg><arg>x</arg></tm-arg><tm-arg><with
+            font-series="medium"><with font-size="1"><space>0.2fn</space>.<space>0.2fn</space></with></with></tm-arg></repeat></tm-arg></macro></tm-arg><tm-arg><htab>5mm</htab></tm-arg></datoms>
+            <no-break/><pageref>auto-1</pageref><vspace>0.5fn</vspace>
+          </tm-par>
+        </tm-arg>
+      </associate>
+    </collection>
+  </auxiliary>
+</TeXmacs>
