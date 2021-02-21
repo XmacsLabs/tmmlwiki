@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+
+<TeXmacs version="1.99.18">
+  <style><tuple><tm-arg>generic</tm-arg><tm-arg>chinese</tm-arg></tuple></style>
+  
+  <body>
+    <tm-par>
+      <doc-data><doc-title>编译器</doc-title></doc-data>
+    </tm-par>
+    
+    <tm-par>
+      <dfn>编译器</dfn>是将计算机高级语言转化为机器可执行的机器语言的工具。
+    </tm-par>
+  </body>
+  
+  <initial>
+    <collection>
+      <associate>
+        <tm-arg>page-medium</tm-arg>
+        <tm-arg>paper</tm-arg>
+      </associate>
+    </collection>
+  </initial>
+</TeXmacs>
