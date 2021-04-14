@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+
+<TeXmacs version="1.99.19">
+  <style><tuple><tm-arg>generic</tm-arg><tm-arg>chinese</tm-arg></tuple></style>
+  
+  <body>
+    <tm-par>
+      <doc-data><doc-title>费马小定理</doc-title></doc-data>
+    </tm-par>
+    
+    <tm-par>
+      <theorem_42_>
+        <tm-par>
+          <dueto>费马</dueto><math>p</math>为质数，<math>a</math>为任意自然数，则<math>a<rsup>p</rsup>≡a
+          <around_42_><tm-arg>(</tm-arg><tm-arg>mod
+          p</tm-arg><tm-arg>)</tm-arg></around_42_></math>。
+        </tm-par>
+      </theorem_42_>
+    </tm-par>
+    
+    <tm-par>
+      <proof>
+        <tm-par>
+          对<math>a</math>使用数学归纳法。
+        </tm-par>
+        
+        <tm-par>
+          第一步：当<math>a=1</math>时，<math>1<rsup>p</rsup>≡1
+          <around_42_><tm-arg>(</tm-arg><tm-arg>mod
+          p</tm-arg><tm-arg>)</tm-arg></around_42_></math> 成立。
+        </tm-par>
+        
+        <tm-par>
+          第二步：假设当<math>a=n</math>时，<math>n<rsup>p</rsup>≡n<around_42_><tm-arg>(</tm-arg><tm-arg>mod
+          p</tm-arg><tm-arg>)</tm-arg></around_42_></math>成立。那么<math>p|<around_42_><tm-arg>(</tm-arg><tm-arg>n<rsup>p</rsup>-n</tm-arg><tm-arg>)</tm-arg></around_42_></math>。
+        </tm-par>
+        
+        <tm-par>
+          考虑<math><around_42_><tm-arg>(</tm-arg><tm-arg>n+1</tm-arg><tm-arg>)</tm-arg></around_42_><rsup>p</rsup>-<around_42_><tm-arg>(</tm-arg><tm-arg>n+1</tm-arg><tm-arg>)</tm-arg></around_42_></math>的情况：
+        </tm-par>
+        
+        <tm-par>
+          <eqnarray_42_>
+            <tm-par>
+              <tformat>
+                <table>
+                  <tm-arg><row><tm-arg><cell><around_42_><tm-arg>(</tm-arg><tm-arg>n+1</tm-arg><tm-arg>)</tm-arg></around_42_><rsup>p</rsup>-<around_42_><tm-arg>(</tm-arg><tm-arg>n+1</tm-arg><tm-arg>)</tm-arg></around_42_></cell></tm-arg><tm-arg><cell>=</cell></tm-arg><tm-arg><cell><big>sum</big><rsub>k=0</rsub><rsup>p</rsup>C<rsup>k</rsup><rsub>p</rsub>n<rsup>k</rsup>-n-1</cell></tm-arg></row></tm-arg>
+                  <tm-arg><row><tm-arg><cell><tm-arg></tm-arg></cell></tm-arg><tm-arg><cell>=</cell></tm-arg><tm-arg><cell><big>sum</big><rsub>k=1</rsub><rsup>p-1</rsup>C<rsub>p</rsub><rsup>k</rsup>n<rsup>k</rsup>+<around_42_><tm-arg>(</tm-arg><tm-arg>n<rsup>p</rsup>-n</tm-arg><tm-arg>)</tm-arg></around_42_></cell></tm-arg></row></tm-arg>
+                </table>
+              </tformat>
+            </tm-par>
+          </eqnarray_42_>
+        </tm-par>
+        
+        <tm-par>
+          由于<math>C<rsup>k</rsup><rsub>p</rsub>=<frac><tm-arg>p!</tm-arg><tm-arg>k!<around_42_><tm-arg>(</tm-arg><tm-arg>p-k</tm-arg><tm-arg>)</tm-arg></around_42_>!</tm-arg></frac></math>且p为质数：
+        </tm-par>
+        
+        <tm-par>
+          <equation_42_>
+            <tm-par>
+              p|C<rsub>p</rsub><rsup>k</rsup>,1⩽k⩽p-1
+            </tm-par>
+          </equation_42_>
+        </tm-par>
+        
+        <tm-par>
+          所以：
+        </tm-par>
+        
+        <tm-par>
+          <equation_42_>
+            <tm-par>
+              p|<big>sum</big><rsub>k=1</rsub><rsup>p-1</rsup>C<rsub>p</rsub><rsup>k</rsup>n<rsup>k</rsup>+<around_42_><tm-arg>(</tm-arg><tm-arg>n<rsup>p</rsup>-n</tm-arg><tm-arg>)</tm-arg></around_42_>
+            </tm-par>
+          </equation_42_>
+        </tm-par>
+        
+        <tm-par>
+          也就是<math>p|<around_42_><tm-arg>(</tm-arg><tm-arg>n+1</tm-arg><tm-arg>)</tm-arg></around_42_><rsup>p</rsup>-<around_42_><tm-arg>(</tm-arg><tm-arg>n+1</tm-arg><tm-arg>)</tm-arg></around_42_></math>也成立。
+        </tm-par>
+        
+        <tm-par>
+          根据数学归纳法，对于任意自然数a，<math>a<rsup>p</rsup>≡a<around_42_><tm-arg>(</tm-arg><tm-arg>mod
+          p</tm-arg><tm-arg>)</tm-arg></around_42_></math>都成立。
+        </tm-par>
+        
+        <tm-par>
+          
+        </tm-par>
+      </proof>
+    </tm-par>
+  </body>
+  
+  <initial>
+    <collection>
+      <tm-arg>
+        <associate>
+          <tm-arg>page-medium</tm-arg>
+          <tm-arg>paper</tm-arg>
+        </associate>
+      </tm-arg>
+      <tm-arg>
+        <associate>
+          <tm-arg>prog-scripts</tm-arg>
+          <tm-arg>python</tm-arg>
+        </associate>
+      </tm-arg>
+    </collection>
+  </initial>
+</TeXmacs>
