@@ -90,6 +90,19 @@
         </tm-par>
       </proof>
     </tm-par>
+    
+    <tm-par>
+      <section>相关链接</section>
+    </tm-par>
+    
+    <tm-par>
+      <itemize>
+        <tm-par>
+          <item/><hlink><tm-arg>AoPS: Fermat's Little
+          Theorem</tm-arg><tm-arg>https://artofproblemsolving.com/wiki/index.php/Fermat%27s_Little_Theorem</tm-arg></hlink>
+        </tm-par>
+      </itemize>
+    </tm-par>
   </body>
   
   <initial>
@@ -108,4 +121,13 @@
       </tm-arg>
     </collection>
   </initial>
+  
+  <references>
+    <collection>
+      <associate>
+        <tm-arg>auto-1</tm-arg>
+        <tm-arg><tuple><tm-arg>1</tm-arg><tm-arg>?</tm-arg></tuple></tm-arg>
+      </associate>
+    </collection>
+  </references>
 </TeXmacs>
