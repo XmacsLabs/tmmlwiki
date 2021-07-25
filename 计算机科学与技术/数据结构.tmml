@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+
+<TeXmacs version="2.1">
+  <style><tuple><tm-arg>generic</tm-arg><tm-arg>chinese</tm-arg></tuple></style>
+  
+  <body>
+    <tm-par>
+      <doc-data><doc-title>数据结构</doc-title></doc-data>
+    </tm-par>
+    
+    <tm-par>
+      数据结构是组织、管理、存储数据的方式，以满足高效访问和修改的需求。
+    </tm-par>
+  </body>
+  
+  <initial>
+    <collection>
+      <associate>
+        <tm-arg>page-medium</tm-arg>
+        <tm-arg>paper</tm-arg>
+      </associate>
+    </collection>
+  </initial>
+</TeXmacs>
