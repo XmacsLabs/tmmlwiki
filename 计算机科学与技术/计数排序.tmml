@@ -13,6 +13,93 @@
     </tm-par>
     
     <tm-par>
+      <render-code>
+        <tm-par>
+          <render-function/> CoutingSort(input, k)
+        </tm-par>
+        
+        <tm-par>
+          <space>1em</space>count <math>←</math> array of k+1 zeros
+        </tm-par>
+        
+        <tm-par>
+          <space>1em</space>output <math>←</math> array of same length as
+          input
+        </tm-par>
+        
+        <tm-par>
+          
+        </tm-par>
+        
+        <tm-par>
+          <space>1em</space><render-for/> i = 0 <render-to/> length(input) - 1
+          <render-do/>
+        </tm-par>
+        
+        <tm-par>
+          <space>2em</space>j = key(input[i])
+        </tm-par>
+        
+        <tm-par>
+          <space>2em</space>count[j] += 1
+        </tm-par>
+        
+        <tm-par>
+          <space>1em</space><render-end-for/>
+        </tm-par>
+        
+        <tm-par>
+          
+        </tm-par>
+        
+        <tm-par>
+          <space>1em</space><render-for/> i = 1 <render-to/> k <render-do/>
+        </tm-par>
+        
+        <tm-par>
+          <space>2em</space>count[i] += count[i-1]
+        </tm-par>
+        
+        <tm-par>
+          <space>1em</space><render-end-for/>
+        </tm-par>
+        
+        <tm-par>
+          
+        </tm-par>
+        
+        <tm-par>
+          <space>1em</space><render-for/> i = length(input) - 1
+          <render-keyword>downto</render-keyword> 0 do
+        </tm-par>
+        
+        <tm-par>
+          <space>2em</space>j = key(input[i])
+        </tm-par>
+        
+        <tm-par>
+          <space>2em</space>count[j] -= 1
+        </tm-par>
+        
+        <tm-par>
+          <space>2em</space>output[count[j]] = input[i]
+        </tm-par>
+        
+        <tm-par>
+          <space>1em</space><render-end-for/>
+        </tm-par>
+        
+        <tm-par>
+          
+        </tm-par>
+        
+        <tm-par>
+          <space>1em</space><render-return/> output
+        </tm-par>
+      </render-code>
+    </tm-par>
+    
+    <tm-par>
       <section>相关链接</section>
     </tm-par>
     
