@@ -9,7 +9,8 @@
     </tm-par>
     
     <tm-par>
-      计数排序是一种整数排序方法。
+      计数排序是一种整数排序方法。Harold H.
+      Seward在1954年发明了计数排序。
     </tm-par>
     
     <tm-par>
@@ -19,12 +20,11 @@
         </tm-par>
         
         <tm-par>
-          <space>1em</space>count <math>←</math> array of k+1 zeros
+          <space>1em</space>count ← array of k+1 zeros
         </tm-par>
         
         <tm-par>
-          <space>1em</space>output <math>←</math> array of same length as
-          input
+          <space>1em</space>output ← array of same length as input
         </tm-par>
         
         <tm-par>
@@ -108,6 +108,11 @@
         <tm-par>
           <item/><hlink><tm-arg>Counting Sort Visualization
           (usfca.edu)</tm-arg><tm-arg>https://www.cs.usfca.edu/~galles/visualization/CountingSort.html</tm-arg></hlink>
+        </tm-par>
+        
+        <tm-par>
+          <item/><hlink><tm-arg>Counting sort -
+          Wikipedia</tm-arg><tm-arg>https://en.wikipedia.org/wiki/Counting_sort</tm-arg></hlink>
         </tm-par>
       </itemize>
     </tm-par>
