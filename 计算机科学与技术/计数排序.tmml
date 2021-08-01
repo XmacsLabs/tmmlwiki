@@ -16,85 +16,83 @@
     <tm-par>
       <render-code>
         <tm-par>
-          <render-function/> CoutingSort(input, k)
-        </tm-par>
-        
-        <tm-par>
-          <space>1em</space>count ← array of k+1 zeros
-        </tm-par>
-        
-        <tm-par>
-          <space>1em</space>output ← array of same length as input
-        </tm-par>
-        
-        <tm-par>
-          
-        </tm-par>
-        
-        <tm-par>
-          <space>1em</space><render-for/> i = 0 <render-to/> length(input) - 1
-          <render-do/>
-        </tm-par>
-        
-        <tm-par>
-          <space>2em</space>j = key(input[i])
-        </tm-par>
-        
-        <tm-par>
-          <space>2em</space>count[j] += 1
-        </tm-par>
-        
-        <tm-par>
-          <space>1em</space><render-end-for/>
-        </tm-par>
-        
-        <tm-par>
-          
-        </tm-par>
-        
-        <tm-par>
-          <space>1em</space><render-for/> i = 1 <render-to/> k <render-do/>
-        </tm-par>
-        
-        <tm-par>
-          <space>2em</space>count[i] += count[i-1]
-        </tm-par>
-        
-        <tm-par>
-          <space>1em</space><render-end-for/>
-        </tm-par>
-        
-        <tm-par>
-          
-        </tm-par>
-        
-        <tm-par>
-          <space>1em</space><render-for/> i = length(input) - 1
-          <render-keyword>downto</render-keyword> 0 do
-        </tm-par>
-        
-        <tm-par>
-          <space>2em</space>j = key(input[i])
-        </tm-par>
-        
-        <tm-par>
-          <space>2em</space>count[j] -= 1
-        </tm-par>
-        
-        <tm-par>
-          <space>2em</space>output[count[j]] = input[i]
-        </tm-par>
-        
-        <tm-par>
-          <space>1em</space><render-end-for/>
-        </tm-par>
-        
-        <tm-par>
-          
-        </tm-par>
-        
-        <tm-par>
-          <space>1em</space><render-return/> output
+          <algo-function>
+            <tm-arg>CoutingSort</tm-arg>
+            <tm-arg>input, k</tm-arg>
+            <tm-arg>
+              <tm-par>
+                count ← array of k+1 zeros
+              </tm-par>
+              
+              <tm-par>
+                output ← array of same length as input
+              </tm-par>
+              
+              <tm-par>
+                
+              </tm-par>
+              
+              <tm-par>
+                <algo-for>
+                  <tm-arg>i = 0 <algo-to/> length(input) - 1</tm-arg>
+                  <tm-arg>
+                    <tm-par>
+                      j = key(input[i])
+                    </tm-par>
+                    
+                    <tm-par>
+                      count[j] += 1
+                    </tm-par>
+                  </tm-arg>
+                </algo-for>
+              </tm-par>
+              
+              <tm-par>
+                
+              </tm-par>
+              
+              <tm-par>
+                <algo-for><tm-arg>i = 1 <algo-to/> k</tm-arg><tm-arg>count[i]
+                += count[i-1]</tm-arg></algo-for>
+              </tm-par>
+              
+              <tm-par>
+                
+              </tm-par>
+              
+              <tm-par>
+                <algo-for>
+                  <tm-arg>i = length(input) - 1
+                  <render-keyword_42_>downto</render-keyword_42_> 0</tm-arg>
+                  <tm-arg>
+                    <tm-par>
+                      j = key(input[i])
+                    </tm-par>
+                    
+                    <tm-par>
+                      count[j] -= 1
+                    </tm-par>
+                    
+                    <tm-par>
+                      output[count[j]] = input[i]
+                    </tm-par>
+                  </tm-arg>
+                </algo-for>
+              </tm-par>
+              
+              <tm-par>
+                
+              </tm-par>
+              
+              <tm-par>
+                <algo-return>
+                  <tm-par>
+                    output
+                  </tm-par>
+                </algo-return>
+              </tm-par>
+            </tm-arg>
+          </algo-function>
         </tm-par>
       </render-code>
     </tm-par>
@@ -131,8 +129,24 @@
     <collection>
       <associate>
         <tm-arg>auto-1</tm-arg>
-        <tm-arg><tuple><tm-arg>1</tm-arg><tm-arg>?</tm-arg></tuple></tm-arg>
+        <tm-arg><tuple><tm-arg>1</tm-arg><tm-arg>1</tm-arg></tuple></tm-arg>
       </associate>
     </collection>
   </references>
+  
+  <auxiliary>
+    <collection>
+      <associate>
+        <tm-arg>toc</tm-arg>
+        <tm-arg>
+          <tm-par>
+            <vspace_42_>1fn</vspace_42_><with font-series="bold" math-font-series="bold">1<space>2spc</space>相关链接</with>
+            <datoms><tm-arg><macro><tm-arg>x</tm-arg><tm-arg><repeat><tm-arg><arg>x</arg></tm-arg><tm-arg><with
+            font-series="medium"><with font-size="1"><space>0.2fn</space>.<space>0.2fn</space></with></with></tm-arg></repeat></tm-arg></macro></tm-arg><tm-arg><htab>5mm</htab></tm-arg></datoms>
+            <no-break/><pageref>auto-1</pageref><vspace>0.5fn</vspace>
+          </tm-par>
+        </tm-arg>
+      </associate>
+    </collection>
+  </auxiliary>
 </TeXmacs>
