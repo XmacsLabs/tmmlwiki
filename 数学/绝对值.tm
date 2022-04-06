@@ -43,7 +43,11 @@
     </input>
   </session>
 
-  \;
+  <section|\<#53C2\>\<#8003\>\<#4E66\>\<#76EE\>>
+
+  <\itemize>
+    <item>\<#6D59\>\<#6C5F\>\<#6559\>\<#80B2\>\<#51FA\>\<#7248\>\<#793E\>\<#300A\>\<#6570\>\<#5B66\>\<#300B\>\<#4E03\>\<#5E74\>\<#7EA7\>\<#4E0A\>\<#518C\>2012\<#5E74\>\<#7B2C\>3\<#7248\>
+  </itemize>
 </body>
 
 <\initial>
@@ -56,5 +60,6 @@
   <\collection>
     <associate|auto-1|<tuple|1|?>>
     <associate|auto-2|<tuple|1.1|?>>
+    <associate|auto-3|<tuple|2|?>>
   </collection>
 </references>
