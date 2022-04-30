@@ -12,7 +12,7 @@
 
   \<#8BBE\>\<#629B\>\<#7269\>\<#7EBF\>\<#7684\>\<#7126\>\<#51C6\>\<#8DDD\>\<#4E3A\><math|p>\<#FF0C\>\<#5219\>\<#629B\>\<#7269\>\<#7EBF\>\<#7684\>\<#6807\>\<#51C6\>\<#65B9\>\<#7A0B\>\<#5982\>\<#4E0B\>\<#6240\>\<#793A\>\<#FF1A\>
 
-  <\big-table|<tabular|<tformat|<cwith|1|1|3|3|cell-halign|c>|<table|<row|<cell|>|<cell|\<#6807\>\<#51C6\>\<#65B9\>\<#7A0B\>>|<cell|\<#7126\>\<#70B9\>\<#5750\>\<#6807\>>|<cell|\<#51C6\>\<#7EBF\>\<#65B9\>\<#7A0B\>>>|<row|<cell|\<#5DE6\>\<#5F00\>\<#53E3\>\<#629B\>\<#7269\>\<#7EBF\>>|<cell|<math|y<rsup|2>=2*p*x>>|<cell|<math|<around*|(|<frac|p|2>,0|)>>>|<cell|<math|x=-<frac|p|2>>>>|<row|<cell|\<#53F3\>\<#5F00\>\<#53E3\>\<#629B\>\<#7269\>\<#7EBF\>>|<cell|<math|y<rsup|2>=-2*p*x>>|<cell|<math|<around*|(|-<frac|p|2>,0|)>>>|<cell|<math|x=<frac|p|2>>>>|<row|<cell|\<#4E0A\>\<#5F00\>\<#53E3\>\<#629B\>\<#7269\>\<#7EBF\>>|<cell|<math|x<rsup|2>=2*p*y>>|<cell|<math|<around*|(|0,<frac|p|2>|)>>>|<cell|<math|y=-<frac|p|2>>>>|<row|<cell|\<#4E0B\>\<#5F00\>\<#53E3\>\<#629B\>\<#7269\>\<#7EBF\>>|<cell|<math|x<rsup|2>=-2*p*y>>|<cell|<math|<around*|(|0,-<frac|p|2>|)>>>|<cell|<math|y=<frac|p|2>>>>>>>>
+  <\big-table|<tabular|<tformat|<cwith|1|1|1|-1|cell-tborder|0ln>|<cwith|1|1|1|-1|cell-bborder|1ln>|<cwith|2|2|1|-1|cell-tborder|1ln>|<cwith|1|1|4|4|cell-rborder|0ln>|<cwith|1|1|1|1|cell-tborder|0ln>|<cwith|5|5|1|1|cell-bborder|0ln>|<cwith|1|-1|1|1|cell-lborder|0ln>|<cwith|1|-1|1|1|cell-rborder|1ln>|<cwith|1|-1|2|2|cell-lborder|1ln>|<cwith|1|-1|1|-1|cell-halign|c>|<table|<row|<cell|>|<cell|\<#6807\>\<#51C6\>\<#65B9\>\<#7A0B\>>|<cell|\<#7126\>\<#70B9\>\<#5750\>\<#6807\>>|<cell|\<#51C6\>\<#7EBF\>\<#65B9\>\<#7A0B\>>>|<row|<cell|\<#5DE6\>\<#5F00\>\<#53E3\>\<#629B\>\<#7269\>\<#7EBF\>>|<cell|<math|y<rsup|2>=2*p*x>>|<cell|<math|<around*|(|<frac|p|2>,0|)>>>|<cell|<math|x=-<frac|p|2>>>>|<row|<cell|\<#53F3\>\<#5F00\>\<#53E3\>\<#629B\>\<#7269\>\<#7EBF\>>|<cell|<math|y<rsup|2>=-2*p*x>>|<cell|<math|<around*|(|-<frac|p|2>,0|)>>>|<cell|<math|x=<frac|p|2>>>>|<row|<cell|\<#4E0A\>\<#5F00\>\<#53E3\>\<#629B\>\<#7269\>\<#7EBF\>>|<cell|<math|x<rsup|2>=2*p*y>>|<cell|<math|<around*|(|0,<frac|p|2>|)>>>|<cell|<math|y=-<frac|p|2>>>>|<row|<cell|\<#4E0B\>\<#5F00\>\<#53E3\>\<#629B\>\<#7269\>\<#7EBF\>>|<cell|<math|x<rsup|2>=-2*p*y>>|<cell|<math|<around*|(|0,-<frac|p|2>|)>>>|<cell|<math|y=<frac|p|2>>>>>>>>
     \<#629B\>\<#7269\>\<#7EBF\>\<#7684\>\<#6807\>\<#51C6\>\<#65B9\>\<#7A0B\>\<#7684\>\<#56DB\>\<#79CD\>\<#5F62\>\<#5F0F\>
   </big-table>
 
@@ -48,6 +48,15 @@
 
 <\references>
   <\collection>
-    <associate|auto-1|<tuple|1|?>>
+    <associate|auto-1|<tuple|1|1>>
   </collection>
 </references>
+
+  <\collection>
+    <\associate|table>
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|1>|>
+        \<#629B\>\<#7269\>\<#7EBF\>\<#7684\>\<#6807\>\<#51C6\>\<#65B9\>\<#7A0B\>\<#7684\>\<#56DB\>\<#79CD\>\<#5F62\>\<#5F0F\>
+      </surround>|<pageref|auto-1>>
+    </associate>
+  </collection>
+</auxiliary>
