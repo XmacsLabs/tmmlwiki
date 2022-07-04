@@ -2,6 +2,11 @@
 
 TMML Wiki是一个使用GNU TeXmacs作为编辑器的面向理工科背景Wiki。
 
+## 注意
+请使用tm格式为本仓库提交词条，我们正在解决tm文件格式中中文只能用Cork编码序列化的问题：
+
+https://gitee.com/XmacsLabs/mogan/issues/I5FGEI
+
 ## 一级学科
 TMML Wiki暂时收录以下一级学科类目。
 
