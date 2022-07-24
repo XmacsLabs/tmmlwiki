@@ -7,6 +7,8 @@ TMML Wiki是一个使用GNU TeXmacs作为编辑器的面向理工科背景Wiki�
 
 https://gitee.com/XmacsLabs/mogan/issues/I5FGEI
 
+我们已经解决了这个问题，请使用墨干V1.1.0 beta及以上版本贡献词条。
+
 ## 一级学科
 TMML Wiki暂时收录以下一级学科类目。
 
