@@ -1,12 +1,12 @@
-<TeXmacs|2.1.1>
+<TeXmacs|2.1.3>
 
 <style|<tuple|generic|chinese>>
 
 <\body>
-  <doc-data|<doc-title|\<#65E0\>\<#7A77\>\<#6570\>\<#5217\>>>
+  <doc-data|<doc-title|无穷数列>>
 
   <\definition*>
-    \<#9879\>\<#6570\>\<#65E0\>\<#9650\>\<#7684\><cite*|\<#6570\>\<#5217\>>\<#79F0\>\<#4E3A\><dfn|\<#65E0\>\<#7A77\>\<#6570\>\<#5217\>>.
+    项数无限的<cite*|数列>称为<dfn|无穷数列>.
   </definition*>
 </body>
 

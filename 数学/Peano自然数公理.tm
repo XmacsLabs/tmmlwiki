@@ -1,39 +1,39 @@
-<TeXmacs|2.1.2>
+<TeXmacs|2.1.3>
 
 <style|<tuple|generic|chinese>>
 
 <\body>
-  <doc-data|<doc-title|Peano\<#81EA\>\<#7136\>\<#6570\>\<#516C\>\<#7406\>>>
+  <doc-data|<doc-title|Peano自然数公理>>
 
-  \<#6211\>\<#4EEC\>\<#628A\>\<#81EA\>\<#7136\>\<#6570\>\<#96C6\>\<#5408\><math|\<bbb-N\>>\<#770B\>\<#6210\>\<#662F\>\<#6EE1\>\<#8DB3\>\<#4E00\>\<#4E0B\>\<#4E94\>\<#6761\>\<#516C\>\<#7406\>\<#7684\>\<#96C6\>\<#5408\>\<#3002\>
+  我们把自然数集合<math|\<bbb-N\>>看成是满足一下五条公理的集合。
 
   <\axiom>
     <math|0\<in\>\<bbb-N\>>.
   </axiom>
 
   <\axiom>
-    \<#82E5\><math|x\<in\>\<bbb-N\>>\<#FF0C\>\<#5219\><math|x>\<#6709\>\<#4E14\>\<#53EA\>\<#6709\>\<#4E00\>\<#4E2A\>\<#540E\>\<#7EE7\><math|x<rsup|<rprime|'>>\<in\>\<bbb-N\>>.
+    若<math|x\<in\>\<bbb-N\>>，则<math|x>有且只有一个后继<math|x<rsup|<rprime|'>>\<in\>\<bbb-N\>>.
   </axiom>
 
   <\axiom>
-    \<#5BF9\>\<#4EFB\>\<#610F\><math|x\<in\>\<bbb-N\>,x<rsup|<rprime|'>>\<neq\>0>.
+    对任意<math|x\<in\>\<bbb-N\>,x<rsup|<rprime|'>>\<neq\>0>.
   </axiom>
 
   <\axiom>
-    \<#5BF9\>\<#4EFB\>\<#610F\><math|x<rsub|1>,x<rsub|2>\<in\>\<bbb-N\>>\<#FF0C\>\<#82E5\><math|x<rsub|1>\<neq\>x<rsub|2>>\<#FF0C\>\<#5219\><math|x<rsub|1><rsup|<rprime|'>>\<neq\>x<rsub|2><rsup|<rprime|'>>>.
+    对任意<math|x<rsub|1>,x<rsub|2>\<in\>\<bbb-N\>>，若<math|x<rsub|1>\<neq\>x<rsub|2>>，则<math|x<rsub|1><rsup|<rprime|'>>\<neq\>x<rsub|2><rsup|<rprime|'>>>.
   </axiom>
 
   <\axiom>
-    \<#8BBE\><math|\<bbb-M\>\<subseteq\>\<bbb-N\>>.
-    \<#82E5\><math|0\<in\>\<bbb-M\>>\<#FF0C\>\<#4E14\>\<#5F53\><math|x\<in\>\<bbb-M\>>\<#65F6\>\<#4E5F\>\<#6709\><math|x<rsup|<rprime|'>>\<in\>\<bbb-M\>>\<#FF0C\>\<#5219\><math|\<bbb-M\>=\<bbb-N\>>.
+    设<math|\<bbb-M\>\<subseteq\>\<bbb-N\>>.
+    若<math|0\<in\>\<bbb-M\>>，且当<math|x\<in\>\<bbb-M\>>时也有<math|x<rsup|<rprime|'>>\<in\>\<bbb-M\>>，则<math|\<bbb-M\>=\<bbb-N\>>.
   </axiom>
 
-  \<#4E94\>\<#6761\>\<#516C\>\<#7406\>\<#4E2D\>\<#542B\>\<#6709\>\<#4E24\>\<#4E2A\>\<#6CA1\>\<#6709\>\<#7ED9\>\<#51FA\>\<#5B9A\>\<#4E49\>\<#7684\>\<#6982\>\<#5FF5\>\<#FF1A\><math|0>\<#548C\>\<#540E\>\<#7EE7\>\<#3002\>
+  五条公理中含有两个没有给出定义的概念：<math|0>和后继。
 
-  <section*|\<#53C2\>\<#8003\>\<#8D44\>\<#6599\>>
+  <section*|参考资料>
 
   <\itemize>
-    <item>\<#300A\>\<#6570\>\<#7406\>\<#903B\>\<#8F91\>\<#300B\>\<#FF08\>\<#7B2C\>\<#4E8C\>\<#7248\>\<#FF09\>\<#6C6A\>\<#82B3\>\<#5EAD\>
+    <item>《数理逻辑》（第二版）汪芳庭
   </itemize>
 </body>
 
@@ -45,6 +45,16 @@
 
 <\references>
   <\collection>
-    <associate|auto-1|<tuple|5|?>>
+    <associate|auto-1|<tuple|5|1>>
   </collection>
 </references>
+
+<\auxiliary>
+  <\collection>
+    <\associate|toc>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|参考资料>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-1><vspace|0.5fn>
+    </associate>
+  </collection>
+</auxiliary>

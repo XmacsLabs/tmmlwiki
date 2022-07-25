@@ -1,12 +1,12 @@
-<TeXmacs|2.1.2>
+<TeXmacs|2.1.3>
 
 <style|<tuple|generic|chinese>>
 
 <\body>
-  <doc-data|<doc-title|\<#8BA1\>\<#6570\>\<#6392\>\<#5E8F\>>>
+  <doc-data|<doc-title|计数排序>>
 
-  \<#8BA1\>\<#6570\>\<#6392\>\<#5E8F\>\<#662F\>\<#4E00\>\<#79CD\>\<#6574\>\<#6570\>\<#6392\>\<#5E8F\>\<#65B9\>\<#6CD5\>\<#3002\>Harold
-  H. Seward\<#5728\>1954\<#5E74\>\<#53D1\>\<#660E\>\<#4E86\>\<#8BA1\>\<#6570\>\<#6392\>\<#5E8F\>\<#3002\>
+  计数排序是一种整数排序方法。Harold H.
+  Seward在1954年发明了计数排序。
 
   <\render-code>
     <\algo-function|CoutingSort|input, k>
@@ -44,7 +44,7 @@
     </algo-function>
   </render-code>
 
-  <section|\<#76F8\>\<#5173\>\<#94FE\>\<#63A5\>>
+  <section|相关链接>
 
   <\itemize>
     <item><hlink|Counting Sort Visualization
@@ -69,7 +69,7 @@
 <\auxiliary>
   <\collection>
     <\associate|toc>
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|1<space|2spc>\<#76F8\>\<#5173\>\<#94FE\>\<#63A5\>>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|1<space|2spc>相关链接>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-1><vspace|0.5fn>
     </associate>

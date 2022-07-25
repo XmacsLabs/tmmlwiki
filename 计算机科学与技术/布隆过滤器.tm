@@ -1,12 +1,12 @@
-<TeXmacs|2.1.2>
+<TeXmacs|2.1.3>
 
 <style|<tuple|generic|chinese>>
 
 <\body>
-  <doc-data|<doc-title|\<#5E03\>\<#9686\>\<#8FC7\>\<#6EE4\>\<#5668\>>>
+  <doc-data|<doc-title|布隆过滤器>>
 
-  <dfn|\<#5E03\>\<#9686\>\<#8FC7\>\<#6EE4\>\<#5668\>>\<#662F\>\<#4E00\>\<#79CD\>\<#7A7A\>\<#95F4\>\<#5229\>\<#7528\>\<#7387\>\<#9AD8\>\<#7684\>\<#6982\>\<#7387\>\<#6570\>\<#636E\>\<#7ED3\>\<#6784\>\<#FF0C\>\<#7528\>\<#4E8E\>\<#5224\>\<#65AD\>\<#4E00\>\<#4E2A\>\<#5143\>\<#7D20\>\<#662F\>\<#5426\>\<#5728\>\<#4E00\>\<#4E2A\>\<#96C6\>\<#5408\>\<#4E2D\>\<#3002\>Burton
-  Howard Bloom\<#5728\>1970\<#5E74\>\<#63D0\>\<#51FA\>\<#4E86\>\<#5E03\>\<#9686\>\<#8FC7\>\<#6EE4\>\<#5668\><cite|Bloom1970Space>\<#8FD9\>\<#4E2A\>\<#6982\>\<#5FF5\><with-bib|bib|>\<#3002\>
+  <dfn|布隆过滤器>是一种空间利用率高的概率数据结构，用于判断一个元素是否在一个集合中。Burton
+  Howard Bloom在1970年提出了布隆过滤器<cite|Bloom1970Space>这个概念<with-bib|bib|>。
 
   <\english>
     <\bibliography|bib|tm-plain|布隆过滤器>
@@ -19,9 +19,6 @@
     </bibliography>
   </english>
 </body>
-
-<initial|<\collection>
-</collection>>
 
 <\attachments>
   <\collection>

@@ -1,16 +1,16 @@
-<TeXmacs|2.1.2>
+<TeXmacs|2.1.3>
 
 <style|<tuple|generic|chinese>>
 
 <\body>
-  <doc-data|<doc-title|\<#4E8C\>\<#503C\>\<#903B\>\<#8F91\>>>
+  <doc-data|<doc-title|二值逻辑>>
 
-  \<#7ECF\>\<#5178\>\<#7684\>\<#610F\>\<#4E49\>\<#4E0A\>\<#FF0C\>\<#79F0\>\<#4E00\>\<#4E2A\>\<#903B\>\<#8F91\>\<#662F\><dfn|\<#4E8C\>\<#503C\>\<#7684\>>\<#FF0C\>\<#5F53\>\<#4EFB\>\<#4F55\>\<#547D\>\<#9898\>(\<#4E0D\>\<#542B\>\<#81EA\>\<#7531\>\<#53D8\>\<#91CF\>)\<#53EA\>\<#80FD\>\<#4E3A\>\<#771F\>\<#6216\>\<#5047\>\<#FF0C\>\<#4E14\>\<#4E0D\>\<#80FD\>\<#540C\>\<#65F6\>\<#4E3A\>\<#771F\>\<#4E5F\>\<#4E3A\>\<#5047\>\<#3002\>\<#5373\>\<#8BE5\>\<#903B\>\<#8F91\>\<#662F\>\<#4E00\>\<#81F4\>\<#7684\>\<#4E14\>\<#6BCF\>\<#4E2A\>\<#547D\>\<#9898\>\<#90FD\>\<#662F\>\<#53EF\>\<#5224\>\<#5B9A\>\<#7684\>\<#3002\>
+  经典的意义上，称一个逻辑是<dfn|二值的>，当任何命题(不含自由变量)只能为真或假，且不能同时为真也为假。即该逻辑是一致的且每个命题都是可判定的。
 
-  <section*|\<#53C2\>\<#8003\>\<#8D44\>\<#6599\>>
+  <section*|参考资料>
 
   <\itemize>
-    <item>\<#300A\>\<#6570\>\<#7406\>\<#903B\>\<#8F91\>\<#300B\>\<#FF08\>\<#7B2C\>\<#4E8C\>\<#7248\>\<#FF09\>\<#6C6A\>\<#82B3\>\<#5EAD\>
+    <item>《数理逻辑》（第二版）汪芳庭
   </itemize>
 </body>
 
@@ -29,7 +29,7 @@
 <\auxiliary>
   <\collection>
     <\associate|toc>
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|\<#53C2\>\<#8003\>\<#8D44\>\<#6599\>>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|参考资料>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-1><vspace|0.5fn>
     </associate>

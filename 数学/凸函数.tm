@@ -1,15 +1,15 @@
-<TeXmacs|2.1.2>
+<TeXmacs|2.1.3>
 
 <style|<tuple|generic|chinese>>
 
 <\body>
-  <doc-data|<doc-title|\<#51F8\>\<#51FD\>\<#6570\>>>
+  <doc-data|<doc-title|凸函数>>
 
-  \<#5BF9\>\<#533A\>\<#95F4\><math|<around*|[|a,b|]>>\<#4E0A\>\<#5B9A\>\<#4E49\>\<#7684\>\<#51FD\>\<#6570\><math|f>\<#FF0C\>\<#82E5\>\<#5B83\>\<#5BF9\>\<#533A\>\<#95F4\>\<#4E2D\>\<#4EFB\>\<#610F\>\<#4E24\>\<#70B9\><math|x<rsub|1>>\<#FF0C\><math|x<rsub|2>>\<#5747\>\<#6709\><math|f<around*|(|<frac|x<rsub|1>+x<rsub|2>|2>|)>\<leqslant\><frac|f<around*|(|x<rsub|1>|)>+f<around*|(|x<rsub|2>|)>|2>>\<#FF0C\>\<#5219\>\<#79F0\><math|f>\<#662F\>\<#533A\>\<#95F4\><math|<around*|[|a,b|]>>\<#4E0A\>\<#7684\>\<#51F8\>\<#51FD\>\<#6570\>\<#3002\>
+  对区间<math|<around*|[|a,b|]>>上定义的函数<math|f>，若它对区间中任意两点<math|x<rsub|1>>，<math|x<rsub|2>>均有<math|f<around*|(|<frac|x<rsub|1>+x<rsub|2>|2>|)>\<leqslant\><frac|f<around*|(|x<rsub|1>|)>+f<around*|(|x<rsub|2>|)>|2>>，则称<math|f>是区间<math|<around*|[|a,b|]>>上的凸函数。
 
-  U\<#5F62\>\<#66F2\>\<#7EBF\>\<#7684\>\<#51FD\>\<#6570\>\<#5982\><math|f<around*|(|x|)>=x<rsup|2>>\<#FF0C\>\<#901A\>\<#5E38\>\<#662F\>\<#51F8\>\<#51FD\>\<#6570\>\<#3002\>
+  U形曲线的函数如<math|f<around*|(|x|)>=x<rsup|2>>，通常是凸函数。
 
-  <section|\<#76F8\>\<#5173\>\<#94FE\>\<#63A5\>>
+  <section|相关链接>
 
   <\itemize>
     <item><hlink|Convex function (of a real
@@ -32,7 +32,7 @@
 <\auxiliary>
   <\collection>
     <\associate|toc>
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|1<space|2spc>\<#76F8\>\<#5173\>\<#94FE\>\<#63A5\>>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|1<space|2spc>相关链接>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-1><vspace|0.5fn>
     </associate>

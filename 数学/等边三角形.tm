@@ -1,12 +1,12 @@
-<TeXmacs|2.1.1>
+<TeXmacs|2.1.3>
 
 <style|<tuple|generic|chinese>>
 
 <\body>
-  <doc-data|<doc-title|\<#7B49\>\<#8FB9\>\<#4E09\>\<#89D2\>\<#5F62\>>>
+  <doc-data|<doc-title|等边三角形>>
 
   <\definition*>
-    \<#4E09\>\<#6761\>\<#8FB9\>\<#957F\>\<#5EA6\>\<#76F8\>\<#7B49\>\<#7684\>\<#4E09\>\<#89D2\>\<#5F62\>\<#FF0C\>\<#662F\><dfn|\<#7B49\>\<#8FB9\>\<#4E09\>\<#89D2\>\<#5F62\>>\<#3002\>\<#7B49\>\<#8FB9\>\<#4E09\>\<#89D2\>\<#5F62\>\<#53C8\>\<#79F0\><dfn|\<#6B63\>\<#4E09\>\<#89D2\>\<#5F62\>>\<#3002\>
+    三条边长度相等的三角形，是<dfn|等边三角形>。等边三角形又称<dfn|正三角形>。
   </definition*>
 
   <\big-figure>
@@ -34,12 +34,12 @@
       end
     </script-output|<image|<tuple|<#252150532D41646F62652D332E3020455053462D332E300A2525426F756E64696E67426F783A202D35362E36393239202D35362E36393239203232362E37373137203137302E303738370A25255469746C653A202F686F6D652F73616468656E2F2E586D6163732F73797374656D2F746D702F67726170685F65756B6C65696465735F3130323232302F65756B6C65696465732E7478740A252543726561746F723A2065756B6C65696465730A2525456E64436F6D6D656E74730A67736176652032382E3334363435363639323920647570207363616C650A20302E30313736207365746C696E6577696474682031207365746C696E656361702031207365746C696E656A6F696E0A20302E303030302020302E303030302020362E303030302020302E30303030206D6F7665746F0A6C696E65746F207374726F6B650A20362E303030302020302E303030302020332E303030302020352E31393632206D6F7665746F0A6C696E65746F207374726F6B650A20332E303030302020352E313936322020302E303030302020302E30303030206D6F7665746F0A6C696E65746F207374726F6B650A2F4E657743656E747572795363686C626B2D526F6D616E2066696E64666F6E7420302E333532373738207363616C65666F6E7420736574666F6E740A2F5072696E74207B6773617665207472616E736C6174652064757020302030206D6F7665746F2066616C736520636861727061746820666C617474656E70617468207061746862626F78202D32206469762034203120726F6C6C202D32206469762034203120726F6C6C20706F7020706F70206D6F7665746F2073686F772067726573746F72657D2062696E64206465660A284129202D302E32313231202D302E32313231205072696E740A2842292020362E32313231202D302E32313231205072696E740A2843292020332E303030302020352E34393632205072696E740A73686F77706167652067726573746F72650A2525454F460A>|ps>|0.4par|||>>
   <|big-figure>
-    \<#7B49\>\<#8FB9\><math|\<triangle\>ABC>
+    等边<math|\<triangle\>ABC>
   </big-figure>
 
-  <section|\<#7ED8\>\<#56FE\>>
+  <section|绘图>
 
-  <subsection|\<#6B27\>\<#51E0\>\<#91CC\>\<#5F97\>>
+  <subsection|欧几里得>
 
   <\session|eukleides|default>
     <\unfolded-io|Eukleides] >
@@ -73,7 +73,7 @@
     </input>
   </session>
 
-  <subsection|\<#6E10\>\<#8FD1\>\<#7EBF\>>
+  <subsection|渐近线>
 
   <\session|asymptote|default>
     <\unfolded-io>
@@ -101,18 +101,15 @@
     </input>
   </session>
 
-  <section|\<#53C2\>\<#8003\>\<#8D44\>\<#6599\>>
+  <section|参考资料>
 
   <\itemize>
-    <item><hlink|\<#767E\>\<#5EA6\>\<#767E\>\<#79D1\>\<#FF1A\>\<#7B49\>\<#8FB9\>\<#4E09\>\<#89D2\>\<#5F62\>|https://baike.baidu.com/item/%E7%AD%89%E8%BE%B9%E4%B8%89%E8%A7%92%E5%BD%A2>
+    <item><hlink|百度百科：等边三角形|https://baike.baidu.com/item/%E7%AD%89%E8%BE%B9%E4%B8%89%E8%A7%92%E5%BD%A2>
 
     <item><hlink|Wolfram Mathword: Equilateral
     Triangle|https://mathworld.wolfram.com/EquilateralTriangle.html>
   </itemize>
 </body>
-
-<initial|<\collection>
-</collection>>
 
 <\references>
   <\collection>
@@ -121,7 +118,6 @@
     <associate|auto-3|<tuple|1.1|?>>
     <associate|auto-4|<tuple|1.2|?>>
     <associate|auto-5|<tuple|2|?>>
-    <associate|auto-6|<tuple|3|?>>
   </collection>
 </references>
 
@@ -129,23 +125,23 @@
   <\collection>
     <\associate|figure>
       <tuple|normal|<\surround|<hidden-binding|<tuple>|1>|>
-        \<#7B49\>\<#8FB9\><with|mode|<quote|math>|\<triangle\>ABC>
+        等边<with|mode|<quote|math>|\<triangle\>ABC>
       </surround>|<pageref|auto-1>>
     </associate>
     <\associate|toc>
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|1<space|2spc>\<#7ED8\>\<#56FE\>>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|1<space|2spc>绘图>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-2><vspace|0.5fn>
 
-      <with|par-left|<quote|1tab>|1.1<space|2spc>\<#6B27\>\<#51E0\>\<#91CC\>\<#5F97\>
+      <with|par-left|<quote|1tab>|1.1<space|2spc>欧几里得
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-3>>
 
-      <with|par-left|<quote|1tab>|1.2<space|2spc>\<#6E10\>\<#8FD1\>\<#7EBF\>
+      <with|par-left|<quote|1tab>|1.2<space|2spc>渐近线
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-4>>
 
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|2<space|2spc>\<#53C2\>\<#8003\>\<#8D44\>\<#6599\>>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|2<space|2spc>参考资料>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-5><vspace|0.5fn>
     </associate>
