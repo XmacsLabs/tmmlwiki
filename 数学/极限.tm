@@ -21,10 +21,13 @@
     也可以简记为<math|a<rsub|n>\<rightarrow\>a<around*|(|n\<rightarrow\>\<infty\>|)>>.我们也说数列<math|<around*|{|a<rsub|n>|}>><dfn|收敛于><math|a>.存在极限的数列称为<dfn|收敛数列>；不收敛的数列成为<dfn|发散数列>.
   </definition*>
 
+  \;
+
   <section*|参考资料>
 
   <\itemize>
-    <item>《数学分析教程》上册第三版，常庚哲、史济怀
+    <item>常庚哲, 史济怀. 数学分析教程.上册[M].
+    中国科学技术大学出版社, 2012.
   </itemize>
 </body>
 
@@ -34,5 +37,16 @@
 <\references>
   <\collection>
     <associate|auto-1|<tuple|?|?>>
+    <associate|auto-2|<tuple|?|?>>
   </collection>
 </references>
+
+<\auxiliary>
+  <\collection>
+    <\associate|toc>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|参考资料>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-1><vspace|0.5fn>
+    </associate>
+  </collection>
+</auxiliary>
