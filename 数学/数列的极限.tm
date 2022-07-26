@@ -18,7 +18,7 @@
       lim<rsub|n\<rightarrow\>\<infty\>>a<rsub|n>=a,
     </equation*>
 
-    也可以简记为<math|a<rsub|n>\<rightarrow\>a<around*|(|n\<rightarrow\>\<infty\>|)>>.我们也说数列<math|<around*|{|a<rsub|n>|}>><dfn|收敛于><math|a>.存在极限的数列称为<dfn|收敛数列>；不收敛的数列成为<dfn|发散数列>.
+    也可以简记为<math|a<rsub|n>\<rightarrow\>a<around*|(|n\<rightarrow\>\<infty\>|)>>.我们也说实数列<math|<around*|{|a<rsub|n>|}>><dfn|收敛于><math|a>.存在极限的实数列称为<dfn|收敛实数列>；不收敛的实数列称为<dfn|发散实数列>.
   </definition*>
 
   \;
