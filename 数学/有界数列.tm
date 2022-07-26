@@ -6,7 +6,7 @@
   <doc-data|<doc-title|有界数列>>
 
   <\definition*>
-    如果数列<math|<around*|{|a<rsub|n>|}>>既有上界又有下界，则称它是一个<dfn|有界数列>.
+    如果一个数列既有上界又有下界，则称它为<dfn|有界数列>.
   </definition*>
 
   <section*|参考资料>
