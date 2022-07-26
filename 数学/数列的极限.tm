@@ -3,7 +3,7 @@
 <style|<tuple|generic|chinese>>
 
 <\body>
-  <doc-data|<doc-title|极限>>
+  <doc-data|<doc-title|实数列的极限>>
 
   <\definition*>
     设<math|<around*|{|a<rsub|n>|}>>是一个数列，<math|a>是一个实数.如果对任意给定的<math|\<varepsilon\>\<gtr\>0>，存在一个<math|N\<in\>\<bbb-N\><rsup|\<ast\>>>，使得当<math|n\<gtr\>N>时，有
