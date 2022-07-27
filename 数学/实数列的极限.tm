@@ -12,16 +12,14 @@
       <around*|\||a<rsub|n>-a|\|>\<less\>\<varepsilon\>,
     </equation*>
 
-    就说数列<math|<around*|{|a<rsub|n>|}>>当n趋向无穷大时以<math|a>为<dfn|极限>，记成
+    就说实数列<math|<around*|{|a<rsub|n>|}>>当n趋向无穷大时以<math|a>为<dfn|极限>，记成
 
     <\equation*>
       lim<rsub|n\<rightarrow\>\<infty\>>a<rsub|n>=a,
     </equation*>
 
-    也可以简记为<math|a<rsub|n>\<rightarrow\>a<around*|(|n\<rightarrow\>\<infty\>|)>>.我们也说实数列<math|<around*|{|a<rsub|n>|}>><dfn|收敛于><math|a>.存在极限的实数列称为<dfn|收敛实数列>；不收敛的实数列称为<dfn|发散实数列>.
+    也可以简记为<math|a<rsub|n>\<rightarrow\>a<around*|(|n\<rightarrow\>\<infty\>|)>>.我们也说实数列<math|<around*|{|a<rsub|n>|}>><cite*|收敛>于<math|a>.
   </definition*>
-
-  \;
 
   <section*|参考资料>
 
@@ -37,7 +35,6 @@
 <\references>
   <\collection>
     <associate|auto-1|<tuple|?|?>>
-    <associate|auto-2|<tuple|?|?>>
   </collection>
 </references>
 
