@@ -6,7 +6,7 @@
   <doc-data|<doc-title|收敛实数列>>
 
   <\definition*>
-    存在<cite*|极限>的实数列称为<dfn|收敛实数列>.
+    存在<cite*|极限>的实数列称为<dfn|收敛实数列>.\ 
   </definition*>
 
   <section*|性质>
@@ -20,7 +20,14 @@
   </theorem>
 
   <\proof>
-    用反证法.假设收敛数列<math|<around*|{|a<rsub|n>|}>>有两个不同的极限a与b，不妨设<math|a\<less\>b>.令<math|\<varepsilon\>=<around*|(|b-a|)>/2>.对这个<math|\<varepsilon\>\<gtr\>0>，必有<math|N<rsub|1>\<in\>\<bbb-N\><rsup|\<ast\>>>，当<math|n\<gtr\>N<rsub|1>>时一切<math|a<rsub|n>>均在<math|a>的<math|\<varepsilon\>>邻域内.因此，当<math|n\<gtr\>max<around*|(|N<rsub|1>,N<rsub|2>|)>>时，一切<math|a<rsub|n>>都必须同时在这两个开区间内，但因这两个开区间没有公共点，这就产生的矛盾.所以，只能有<math|a=b>，这就证明了极限是唯一的.
+    用反证法.假设收敛数列<math|<around*|{|a<rsub|n>|}>>有两个不同的极限<math|a>与<math|b>，不妨设<math|a\<less\>b>.令<math|\<varepsilon\>=<around*|(|b-a|)>/2>.
+
+    对这个<math|\<varepsilon\>\<gtr\>0>，必有<math|N<rsub|1>\<in\>\<bbb-N\><rsup|\<ast\>>>，当<math|n\<gtr\>N<rsub|1>>时一切<math|a<rsub|n>>均在<math|a>的<math|\<varepsilon\>>-邻域<math|A<rsub|\<varepsilon\>>>内.\ 
+
+    同时，对于这个<math|\<varepsilon\>\<gtr\>0>，必有<math|N<rsub|2>\<in\>\<bbb-N\><rsup|\<ast\>>>，当<math|n\<gtr\>N<rsub|2>>时一切<math|a<rsub|n>>均在<math|b>的<math|\<varepsilon\>>-邻域<math|B<rsub|\<varepsilon\>>>内.
+
+    因此，当<math|n\<gtr\>max<around*|(|N<rsub|1>,N<rsub|2>|)>>时，一切<math|a<rsub|n>>都必须同时在<math|A<rsub|\<varepsilon\>>>和<math|B<rsub|\<varepsilon\>>>这两个开区间内，但因这两个开区间交集为空，这就产生的矛盾.
+    所以，只能有<math|a=b>，这就证明了极限是唯一的.
   </proof>
 
   <\theorem>
@@ -28,7 +35,7 @@
   </theorem>
 
   <\theorem>
-    设<math|<around*|{|a<rsub|n>|}>>与<math|b<rsub|n>>都是<cite*|收敛实数列>，则<math|<around*|{|a<rsub|n>+b<rsub|n>|}>>，<math|<around*|{|a<rsub|n>*b<rsub|n>|}>>也是<cite*|收敛实数列>.如果<math|<with|math-display|true|lim<rsub|n\<rightarrow\>\<infty\>>b<rsub|n>\<neq\>0>>，则<math|<around*|{|a<rsub|n>/b<rsub|n>|}>>也<cite*|收敛>，并且有
+    设<math|<around*|{|a<rsub|n>|}>>与<math|<around*|{|b<rsub|n>|}>>都是<cite*|收敛实数列>，则<math|<around*|{|a<rsub|n>+b<rsub|n>|}>>，<math|<around*|{|a<rsub|n>*b<rsub|n>|}>>也是<cite*|收敛实数列>.如果<math|<with|math-display|true|lim<rsub|n\<rightarrow\>\<infty\>>b<rsub|n>\<neq\>0>>，则<math|<around*|{|a<rsub|n>/b<rsub|n>|}>>也<cite*|收敛>，并且有
 
     (1)<math|<with|math-display|true|lim<rsub|n\<rightarrow\>\<infty\>><around*|(|a<rsub|n>\<pm\>b<rsub|n>|)>=lim<rsub|n\<rightarrow\>\<infty\>>a<rsub|n>+lim<rsub|n\<rightarrow\>\<infty\>>b<rsub|n>>>；
 
@@ -36,6 +43,8 @@
 
     (3) <math|<with|math-display|true|lim<rsub|n\<rightarrow\>\<infty\>><frac|a<rsub|n>|b<rsub|n>>=<frac|<with|math-display|true|lim<rsub|n\<rightarrow\>\<infty\>>a<rsub|n>>|<with|math-display|true|lim<rsub|n\<rightarrow\>\<infty\>>b<rsub|n>>>>>，其中<math|<with|math-display|true|lim<rsub|n\<rightarrow\>\<infty\>>b<rsub|n>\<neq\>0>>.
   </theorem>
+
+  \;
 </body>
 
 <initial|<\collection>
@@ -46,3 +55,13 @@
     <associate|auto-1|<tuple|?|?>>
   </collection>
 </references>
+
+<\auxiliary>
+  <\collection>
+    <\associate|toc>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|性质>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-1><vspace|0.5fn>
+    </associate>
+  </collection>
+</auxiliary>
