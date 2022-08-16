@@ -9,7 +9,7 @@
 
   <section|<person|Peano>自然数公理>
 
-  我们把<dfn|自然数>集合<math|\<bbb-N\>>看成是由以下五条公理唯一确定的集合，参考<cite|数理逻辑2010汪芳庭>.
+  我们把<dfn|自然数>集合<math|\<bbb-N\>>看成是由以下五条公理唯一确定的集合，参考<cite-detail|数理逻辑2010汪芳庭|�0.2>.
 
   <\axiom>
     <label|axiom:zero><math|0\<in\>\<bbb-N\>>.
@@ -156,7 +156,7 @@
       数学基础2018汪芳庭
     </associate>
     <\associate|toc>
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|1<space|2spc>Peano自然数公理>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|1<space|2spc><with|font-shape|<quote|small-caps>|Peano>自然数公理>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-1><vspace|0.5fn>
 
