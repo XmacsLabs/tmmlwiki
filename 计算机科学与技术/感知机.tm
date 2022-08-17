@@ -1,0 +1,88 @@
+<TeXmacs|2.1.3>
+
+<style|<tuple|generic|chinese|preview-ref>>
+
+<\body>
+  <doc-data|<doc-title|感知机>>
+
+  <\definition*>
+    <dueto|<cite|统计学习方法2012李航>>假设输入空间（特征空间）是<math|\<chi\>\<subseteq\>\<bbb-R\><rsup|n>>，输出空间是<math|\<cal-Y\>=<around*|{|+1,-1|}>>.输入<math|x\<in\>\<cal-X\>>表示实例的特征向量，对应于输入空间（特征空间）的点：输出<math|y\<in\>\<cal-Y\>>表示实例的类别.由输入空间到输出空间的如下函数
+
+    <\equation*>
+      f<around*|(|x|)>=sign<around*|(|w\<cdot\>x+b|)>
+    </equation*>
+
+    称为<name|感知机>.其中，<math|w>和<math|b>为感知机模型参数，<math|w\<in\>\<bbb-R\><rsup|n>>叫作权值(weight)或者值向量(weight
+    vector)，<math|b\<in\>\<bbb-R\>>叫做偏置(bias)，<math|w\<cdot\>x>表示<math|w>与<math|x>的内积.
+    <math|sign>是符号函数，即
+
+    <\equation*>
+      sign*<around*|(|x|)>=<choice|<tformat|<table|<row|<cell|+1,>|<cell|x\<geqslant\>0>>|<row|<cell|-1,>|<cell|x\<less\>0>>>>>
+    </equation*>
+  </definition*>
+
+  <\bibliography|bib|tm-plain|>
+    <\bib-list|1>
+      <bibitem*|1><label|bib-统计学习方法2012李航>李航.
+      <newblock><with|font-shape|italic|统计学习方法>,
+      <localize|volume><nbsp>. <newblock>清华大学出版社, 北京,
+      1<localize| edition>, 3 2012.<newblock>
+    </bib-list>
+  </bibliography>
+</body>
+
+<\initial>
+  <\collection>
+    <associate|page-medium|paper>
+  </collection>
+</initial>
+
+<\attachments>
+  <\collection>
+    <\associate|bib-bibliography>
+      <\db-entry|+21uSaSAb2Raa2l5O|book|统计学习方法2012李航>
+        <db-field|contributor|sadhen>
+
+        <db-field|modus|manual>
+
+        <db-field|newer|+21uSaSAb2Raa2l5N>
+
+        <db-field|date|1660748909>
+      <|db-entry>
+        <db-field|author|<name|李航>>
+
+        <db-field|title|统计学习方法>
+
+        <db-field|publisher|清华大学出版社>
+
+        <db-field|year|2012>
+
+        <db-field|address|北京>
+
+        <db-field|edition|1>
+
+        <db-field|month|3>
+      </db-entry>
+    </associate>
+  </collection>
+</attachments>
+
+<\references>
+  <\collection>
+    <associate|auto-1|<tuple|?|1>>
+    <associate|bib-统计学习方法2012李航|<tuple|1|1>>
+  </collection>
+</references>
+
+<\auxiliary>
+  <\collection>
+    <\associate|bib>
+      统计学习方法2012李航
+    </associate>
+    <\associate|toc>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|参考文献>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-1><vspace|0.5fn>
+    </associate>
+  </collection>
+</auxiliary>
