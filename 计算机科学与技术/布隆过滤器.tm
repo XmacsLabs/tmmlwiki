@@ -1,19 +1,19 @@
 <TeXmacs|2.1.3>
 
-<style|<tuple|generic|chinese>>
+<style|<tuple|generic|chinese|preview-ref>>
 
 <\body>
   <doc-data|<doc-title|布隆过滤器>>
 
   <dfn|布隆过滤器>是一种空间利用率高的概率数据结构，用于判断一个元素是否在一个集合中。Burton
-  Howard Bloom在1970年提出了布隆过滤器<cite|Bloom1970Space>这个概念<with-bib|bib|>。
+  Howard Bloom在1970年提出了布隆过滤器<cite|10.1145/362686.362692>这个概念。
 
   <\bibliography|bib|tm-plain|>
     <\bib-list|1>
-      <bibitem*|1><label|bib-Bloom1970Space>Bloom<localize| and
-      >Burton,<nbsp>H.<nbsp> <newblock>Space/time trade-offs in hash coding
-      with allowable errors. <newblock><with|font-shape|italic|Communications
-      of ACM>, (), \ 1970.<newblock>
+      <bibitem*|1><label|bib-10.1145/362686.362692>Burton<nbsp>H.<nbsp>Bloom.
+      <newblock>Space/time trade-offs in hash coding with allowable errors.
+      <newblock><with|font-shape|italic|Commun. ACM>, 13(7):422–426, jul
+      1970.<newblock>
     </bib-list>
   </bibliography>
 </body>
@@ -24,23 +24,75 @@
 <\attachments>
   <\collection>
     <\associate|bib-bibliography>
-      <\db-entry|+2V9bMID2KmifIrQ|article|Bloom1970Space>
-        <db-field|contributor|rendong>
+      <\db-entry|+26t6eqsg10dhU230|article|10.1145/362686.362692>
+        <db-field|contributor|sadhen>
 
         <db-field|modus|manual>
 
-        <db-field|newer|+2V9bMID2KmifIr0>
+        <db-field|newer|+26t6eqsg10dhU22v>
 
-        <db-field|date|1660402959>
+        <db-field|date|1660825972>
       <|db-entry>
-        <db-field|author|<name|Bloom><name-sep>Burton, H.>
+        <db-field|author|Burton H. <name|Bloom>>
 
         <db-field|title|Space/time trade-offs in hash coding with allowable
         errors>
 
-        <db-field|journal|Communications of ACM>
+        <db-field|journal|Commun. ACM>
 
         <db-field|year|1970>
+
+        <db-field|volume|13>
+
+        <db-field|number|7>
+
+        <db-field|pages|422\U426>
+
+        <db-field|month|jul>
+
+        <db-field|issue_date|July 1970>
+
+        <db-field|publisher|Association for Computing Machinery>
+
+        <db-field|address|New York, NY, USA>
+
+        <db-field|issn|0001-0782>
+
+        <db-field|url|<slink|https://doi.org/10.1145/362686.362692>>
+
+        <db-field|doi|10.1145/362686.362692>
+
+        <db-field|abstract|In this paper trade-offs among certain
+        computational factors in hash coding are analyzed. The paradigm
+        problem considered is that of testing a series of messages one-by-one
+        for membership in a given set of messages. Two new hash-coding
+        methods are examined and compared with a particular conventional
+        hash-coding method. The computational factors considered are the size
+        of the hash area (space), the time required to identify a message as
+        a nonmember of the given set (reject time), and an allowable error
+        frequency.The new methods are intended to reduce the amount of space
+        required to contain the hash-coded information from that associated
+        with conventional methods. The reduction in space is accomplished by
+        exploiting the possibility that a small fraction of errors of
+        commission may be tolerable in some applications, in particular,
+        applications in which a large amount of data is involved and a core
+        resident hash area is consequently not feasible using conventional
+        methods.In such applications, it is envisaged that overall
+        performance could be improved by using a smaller core resident hash
+        area in conjunction with the new methods and, when necessary, by
+        using some secondary and perhaps time-consuming test to \Pcatch\Q the
+        small fraction of errors associated with the new methods. An example
+        is discussed which illustrates possible areas of application for the
+        new methods.Analysis of the paradigm problem demonstrates that
+        allowing a small number of test messages to be falsely identified as
+        members of the given set will permit a much smaller hash area to be
+        used without increasing reject time.>
+
+        <db-field|numpages|5>
+
+        <db-field|keywords|storage layout, scatter storage, retrieval
+        efficiency, retrieval trade-offs, searching, storage efficiency, hash
+        coding, hash addressing>
       </db-entry>
     </associate>
   </collection>
@@ -49,14 +101,14 @@
 <\references>
   <\collection>
     <associate|auto-1|<tuple|?|?>>
-    <associate|bib-Bloom1970Space|<tuple|1|?>>
+    <associate|bib-10.1145/362686.362692|<tuple|1|?>>
   </collection>
 </references>
 
 <\auxiliary>
   <\collection>
     <\associate|bib>
-      Bloom1970Space
+      10.1145/362686.362692
     </associate>
     <\associate|toc>
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|参考文献>
