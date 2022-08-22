@@ -6,13 +6,13 @@
   <doc-data|<doc-title|感知机>>
 
   <\definition*>
-    <dueto|<cite|统计学习方法2012李航>>假设输入空间（特征空间）是<math|\<chi\>\<subseteq\>\<bbb-R\><rsup|n>>，输出空间是<math|\<cal-Y\>=<around*|{|+1,-1|}>>.输入<math|x\<in\>\<cal-X\>>表示实例的特征向量，对应于输入空间（特征空间）的点：输出<math|y\<in\>\<cal-Y\>>表示实例的类别.由输入空间到输出空间的如下函数
+    假设输入空间（特征空间）是<math|\<chi\>\<subseteq\>\<bbb-R\><rsup|n>>，输出空间是<math|\<cal-Y\>=<around*|{|+1,-1|}>>.输入<math|x\<in\>\<cal-X\>>表示实例的特征向量，对应于输入空间（特征空间）的点：输出<math|y\<in\>\<cal-Y\>>表示实例的类别.由输入空间到输出空间的如下函数
 
     <\equation*>
       f<around*|(|x|)>=sign<around*|(|w\<cdot\>x+b|)>
     </equation*>
 
-    称为<name|感知机>.其中，<math|w>和<math|b>为感知机模型参数，<math|w\<in\>\<bbb-R\><rsup|n>>叫作权值(weight)或者值向量(weight
+    称为<dfn|感知机>(<cite-detail|统计学习方法2012李航|定义2.1>).其中，<math|w>和<math|b>为感知机模型参数，<math|w\<in\>\<bbb-R\><rsup|n>>叫作权值(weight)或者值向量(weight
     vector)，<math|b\<in\>\<bbb-R\>>叫做偏置(bias)，<math|w\<cdot\>x>表示<math|w>与<math|x>的内积.
     <math|sign>是符号函数，即
 
