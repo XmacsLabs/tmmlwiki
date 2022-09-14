@@ -1,12 +1,14 @@
 <TeXmacs|2.1.3>
 
-<style|<tuple|generic|chinese|preview-ref>>
+<style|<tuple|generic|chinese|preview-ref|comment>>
 
 <\body>
   <doc-data|<doc-title|集合的映射>>
 
   <\definition>
-    设<math|A,B>是两个集合，如果<math|f>是一种关系，使得对于<math|A>中的每一个元素<math|x>，<math|B>中有唯一确定的元素\V记为<math|f<around*|(|x|)>>\V与<math|x>对应，则称<math|f>是一个从<math|A>到<math|B>的<dfn|映射>(参考<cite-detail|常庚哲2012数学分析教程|定义2.1.1>)，记作
+    设<math|A,B>是两个集合，如果<math|f>是一种关系<folded-comment|+JzAarVGGnnBzLz|+JzAarVGGnnBzM0|comment|Darcy
+    Shen|1663170385||《数学分析教程》中的定义在这里使用的是规律，Yiqi
+    Xu认为：规律通常没有准确定义，而A和B上的关系定义为A和B笛卡尔积的子集。>，使得对于<math|A>中的每一个元素<math|x>，<math|B>中有唯一确定的元素\V记为<math|f<around*|(|x|)>>\V与<math|x>对应，则称<math|f>是一个从<math|A>到<math|B>的<dfn|映射>(参考<cite-detail|常庚哲2012数学分析教程|定义2.1.1>)，记作
 
     <\equation*>
       f:A\<rightarrow\>B<space|2em>或<space|2em>A<long-arrow|\<rubber-rightarrow\>|f>B.
@@ -27,6 +29,7 @@
 
 <\initial>
   <\collection>
+    <associate|info-flag|detailed>
     <associate|preamble|false>
   </collection>
 </initial>
