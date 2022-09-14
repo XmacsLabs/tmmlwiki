@@ -1,6 +1,6 @@
 <TeXmacs|2.1.3>
 
-<style|<tuple|generic|chinese>>
+<style|<tuple|generic|chinese|preview-ref>>
 
 <\body>
   <doc-data|<doc-title|实数列的极限>>
@@ -12,7 +12,7 @@
       <around*|\||a<rsub|n>-a|\|>\<less\>\<varepsilon\>,
     </equation*>
 
-    就说实数列<math|<around*|{|a<rsub|n>|}>>当n趋向无穷大时以<math|a>为<dfn|极限>，记成
+    就说实数列<math|<around*|{|a<rsub|n>|}>>当n趋向无穷大时以<math|a>为<dfn|极限>(参考<cite-detail|常庚哲2012数学分析教程|定义1.2.1>)，记成
 
     <\equation*>
       lim<rsub|n\<rightarrow\>\<infty\>>a<rsub|n>=a,
@@ -21,27 +21,66 @@
     也可以简记为<math|a<rsub|n>\<rightarrow\>a<around*|(|n\<rightarrow\>\<infty\>|)>>.我们也说实数列<math|<around*|{|a<rsub|n>|}>><cite*|收敛>于<math|a>.
   </definition*>
 
-  <section*|参考资料>
-
-  <\itemize>
-    <item>常庚哲, 史济怀. 数学分析教程.上册[M].
-    中国科学技术大学出版社, 2012.
-  </itemize>
+  <\bibliography|bib|tm-plain|>
+    <\bib-list|1>
+      <bibitem*|1><label|bib-常庚哲2012数学分析教程>常庚哲<localize|
+      and >史济怀. <newblock><with|font-shape|italic|数学分析教程.上册>,
+      <localize|volume><nbsp>. <newblock>中国科学技术大学出版社,
+      合肥, 3<localize| edition>, 8 2012.<newblock>
+    </bib-list>
+  </bibliography>
 </body>
 
-<initial|<\collection>
-</collection>>
+<\initial>
+  <\collection>
+    <associate|info-flag|detailed>
+  </collection>
+</initial>
+
+<\attachments>
+  <\collection>
+    <\associate|bib-bibliography>
+      <\db-entry|+dcUGD5b1sTgpZoY|book|常庚哲2012数学分析教程>
+        <db-field|contributor|sadhen>
+
+        <db-field|modus|imported>
+
+        <db-field|date|1662864570>
+      <|db-entry>
+        <db-field|author|<name|常庚哲><name-sep><name|史济怀>>
+
+        <db-field|title|数学分析教程.上册>
+
+        <db-field|publisher|中国科学技术大学出版社>
+
+        <db-field|year|2012>
+
+        <db-field|address|合肥>
+
+        <db-field|edition|3>
+
+        <db-field|month|8>
+
+        <db-field|isbn|978-7-312-03009-3>
+      </db-entry>
+    </associate>
+  </collection>
+</attachments>
 
 <\references>
   <\collection>
     <associate|auto-1|<tuple|?|?>>
+    <associate|bib-常庚哲2012数学分析教程|<tuple|1|?>>
   </collection>
 </references>
 
 <\auxiliary>
   <\collection>
+    <\associate|bib>
+      常庚哲2012数学分析教程
+    </associate>
     <\associate|toc>
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|参考资料>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|参考文献>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-1><vspace|0.5fn>
     </associate>
