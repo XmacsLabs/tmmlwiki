@@ -7,7 +7,7 @@
 
   <\definition>
     <label|dfn:convex function>设<math|f>为区间<math|I>上的实函数.
-    如果对任何<math|x<rsub|1>,x<rsub|2>\<in\>I>，以及任意的<math|\<lambda\>\<in\><around*|[|0,1|]>>，<math|f>都满足
+    如果对任何<math|x<rsub|1>,x<rsub|2>\<in\>I>，以及任意的<math|\<lambda\>\<in\><around*|[|0,1|]>>，<math|f>都满足不等式
 
     <\equation>
       f<around*|(|\<lambda\>*x<rsub|1>+<around*|(|1-\<lambda\>|)>*x<rsub|2>|)>\<leqslant\>\<lambda\>*f<around*|(|x<rsub|1>|)>+<around*|(|1-\<lambda\>|)>*f<around*|(|x<rsub|2>|)>,<label|ineq:Jensen>
@@ -23,10 +23,10 @@
     因此我们可以给出凸函数如下等价定义：
 
     设<math|f>为区间<math|I>上的实函数.
-    如果对任何不相等的<math|x<rsub|1>,x<rsub|2>\<in\>I>，以及任意的<math|\<lambda\><rsub|1>,\<lambda\><rsub|2>\<gtr\>0>，且<math|\<lambda\><rsub|1>+\<lambda\><rsub|2>=1>，都有
+    如果对任何不相等的<math|x<rsub|1>,x<rsub|2>\<in\>I>，以及任意的<math|\<lambda\>\<in\><around*|(|0,1|)>>，<math|f>都满足不等式
 
     <\equation*>
-      f<around*|(|\<lambda\><rsub|1>*x<rsub|1>+\<lambda\><rsub|2>*x<rsub|2>|)>\<leqslant\>\<lambda\><rsub|1>*f<around*|(|x<rsub|1>|)>+\<lambda\><rsub|2>*f<around*|(|x<rsub|2>|)>,
+      f<around*|(|\<lambda\>*x<rsub|1>+<around*|(|1-\<lambda\>|)>*x<rsub|2>|)>\<leqslant\>\<lambda\>*f<around*|(|x<rsub|1>|)>+<around*|(|1-\<lambda\>|)>*f<around*|(|x<rsub|2>|)>,
     </equation*>
 
     则称<math|f>为<math|I>上的<dfn|凸函数>.
@@ -84,8 +84,7 @@
     <associate|auto-1|<tuple|2|1>>
     <associate|bib-常庚哲2012数学分析教程|<tuple|1|1>>
     <associate|dfn:convex function|<tuple|1|1>>
-    <associate|ineq:Jensen|<tuple|1|?>>
-    <associate|ineq:convexity|<tuple|1|?>>
+    <associate|ineq:Jensen|<tuple|1|1>>
   </collection>
 </references>
 
