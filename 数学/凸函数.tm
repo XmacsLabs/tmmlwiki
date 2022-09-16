@@ -1,26 +1,36 @@
 <TeXmacs|2.1.3>
 
-<style|<tuple|generic|chinese|comment|preview-ref>>
+<style|<tuple|generic|chinese|comment|preview-ref|smart-ref>>
 
 <\body>
   <doc-data|<doc-title|凸函数>>
 
   <\definition>
-    设函数<math|f>在区间<math|I>上有定义.如果对任何<math|x<rsub|1>,x<rsub|2>\<in\>I,x<rsub|1>\<neq\>x<rsub|2>>，以及任意的<math|\<lambda\><rsub|1>,\<lambda\><rsub|2>\<gtr\>0>，且<math|\<lambda\><rsub|1>+\<lambda\><rsub|2>=1>，都有
+    <label|dfn:convex function>设<math|f>为区间<math|I>上的实函数.
+    如果对任何<math|x<rsub|1>,x<rsub|2>\<in\>I>，以及任意的<math|\<lambda\>\<in\><around*|[|0,1|]>>，<math|f>都满足
+
+    <\equation>
+      f<around*|(|\<lambda\>*x<rsub|1>+<around*|(|1-\<lambda\>|)>*x<rsub|2>|)>\<leqslant\>\<lambda\>*f<around*|(|x<rsub|1>|)>+<around*|(|1-\<lambda\>|)>*f<around*|(|x<rsub|2>|)>,<label|ineq:Jensen>
+    </equation>
+
+    则称<math|f>为<math|I>上的<dfn|凸函数>.
+
+    如果上述不等式对任何不相等的<math|x<rsub|1>,x<rsub|2>\<in\>I>及<math|\<lambda\>\<in\><around*|[|0,1|]>>不等号总成立，我们就说<math|f>在<math|I>上是<dfn|严格凸函数>.
+  </definition>
+
+  <\remark>
+    有些文献（如<cite-detail|常庚哲2012数学分析教程|定义3.5.1>）会忽略条件<math|x<rsub|1>=x<rsub|2>>和<math|\<lambda\>=0>或<math|\<lambda\>=1>，因为在此时不等式(<smart-ref|ineq:Jensen>)总成立.
+    因此我们可以给出凸函数如下等价定义：
+
+    设<math|f>为区间<math|I>上的实函数.
+    如果对任何不相等的<math|x<rsub|1>,x<rsub|2>\<in\>I>，以及任意的<math|\<lambda\><rsub|1>,\<lambda\><rsub|2>\<gtr\>0>，且<math|\<lambda\><rsub|1>+\<lambda\><rsub|2>=1>，都有
 
     <\equation*>
       f<around*|(|\<lambda\><rsub|1>*x<rsub|1>+\<lambda\><rsub|2>*x<rsub|2>|)>\<leqslant\>\<lambda\><rsub|1>*f<around*|(|x<rsub|1>|)>+\<lambda\><rsub|2>*f<around*|(|x<rsub|2>|)>,
     </equation*>
 
-    则称<math|f>为<math|I>上的<dfn|凸函数>（参考<cite-detail|常庚哲2012数学分析教程|定义3.5.1>）.如果上述不等式对任何<math|x<rsub|1>\<neq\>x<rsub|2>>及<math|\<lambda\><rsub|1>,\<lambda\><rsub|2>\<gtr\>0<around*|(|\<lambda\><rsub|1>+\<lambda\><rsub|2>=1|)>>不等号总成立，我们就说<math|f>在<math|I>上是<dfn|严格凸函数>.
-  </definition>
-
-  <section*|相关链接>
-
-  <\itemize>
-    <item><hlink|Convex function (of a real
-    variable)|https://encyclopediaofmath.org/wiki/Convex_function_(of_a_real_variable)>
-  </itemize>
+    则称<math|f>为<math|I>上的<dfn|凸函数>.
+  </remark>
 
   <\bibliography|bib|tm-plain|>
     <\bib-list|1>
@@ -71,9 +81,11 @@
 
 <\references>
   <\collection>
-    <associate|auto-1|<tuple|1|1>>
-    <associate|auto-2|<tuple|<with|mode|<quote|math>|\<bullet\>>|1>>
+    <associate|auto-1|<tuple|2|1>>
     <associate|bib-常庚哲2012数学分析教程|<tuple|1|1>>
+    <associate|dfn:convex function|<tuple|1|1>>
+    <associate|ineq:Jensen|<tuple|1|?>>
+    <associate|ineq:convexity|<tuple|1|?>>
   </collection>
 </references>
 
@@ -83,13 +95,9 @@
       常庚哲2012数学分析教程
     </associate>
     <\associate|toc>
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|相关链接>
-      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-1><vspace|0.5fn>
-
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|参考文献>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-2><vspace|0.5fn>
+      <no-break><pageref|auto-1><vspace|0.5fn>
     </associate>
   </collection>
 </auxiliary>
