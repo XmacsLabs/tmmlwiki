@@ -8,13 +8,21 @@
   <\definition>
     设<math|A,B>是两个集合，如果<math|f>是一种关系<folded-comment|+JzAarVGGnnBzLz|+JzAarVGGnnBzM0|comment|Darcy
     Shen|1663170385||《数学分析教程》中的定义在这里使用的是规律，Yiqi
-    Xu认为：规律通常没有准确定义，而A和B上的关系定义为A和B笛卡尔积的子集。>，使得对于<math|A>中的每一个元素<math|x>，<math|B>中有唯一确定的元素\V记为<math|f<around*|(|x|)>>\V与<math|x>对应，则称<math|f>是一个从<math|A>到<math|B>的<dfn|映射>(参考<cite-detail|常庚哲2012数学分析教程|定义2.1.1>)，记作
+    Xu认为：规律通常没有准确定义，而A和B上的关系定义为A和B笛卡尔积的子集。>，使得对于<math|A>中的每一个元素<math|x>，<math|B>中有唯一确定的元素<math|f<around*|(|x|)>>与<math|x>对应，则称<math|f>是一个从<math|A>到<math|B>的<dfn|映射>(参考<cite-detail|常庚哲2012数学分析教程|定义2.1.1>)，记作
 
     <\equation*>
-      f:A\<rightarrow\>B<space|2em>或<space|2em>A<long-arrow|\<rubber-rightarrow\>|f>B.
+      f\<of\>A\<rightarrow\>B<space|2em>或<space|2em>A<long-arrow|\<rubber-rightarrow\>|f>B.
     </equation*>
 
-    集合<math|A>叫做映射<math|f>的<dfn|定义域>，集合<math|B>叫做映射<math|f>的<dfn|目标域>；<math|f<around*|(|x|)>\<in\>B>叫做<math|x>在映射<math|f>之下的<dfn|像>或<math|f>在<math|x>上的<dfn|值>.
+    其中<math|f<around*|(|x|)>>叫做<math|x>在映射<math|f>之下的<dfn|像>或<math|f>在<math|x>上的<dfn|值>.\ 
+
+    集合<math|A>叫做映射<math|f>的<dfn|定义域>，一般记作<math|dom<around*|(|f|)>>；集合<math|B>叫做映射<math|f>的<dfn|目标域>，一般记作<math|cod<around*|(|f|)>>.\ 
+
+    <math|f>的所有像构成的集合称为<math|f>的<dfn|值域>，一般记作<math|f<around*|(|A|)>>，即
+
+    <\equation*>
+      f<around*|(|A|)>=<around*|{|f<around*|(|x|)>\<in\>B\<barsuchthat\>x\<in\>A|}>.
+    </equation*>
   </definition>
 
   <\bibliography|bib|tm-plain|>
