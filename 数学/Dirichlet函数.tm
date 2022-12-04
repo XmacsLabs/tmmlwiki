@@ -1,18 +1,18 @@
-<TeXmacs|2.1.3>
+<TeXmacs|2.1.2>
 
 <style|<tuple|generic|chinese>>
 
 <\body>
-  <doc-data|<doc-title|Dirichlet函数>>
+  <doc-data|<doc-title|<name|Dirichlet>\<#51FD\>\<#6570\>>>
 
   <\definition>
-    定义函数<math|D\<of\>\<bbb-R\>\<rightarrow\><around*|{|0,1|}>>如下：
+    \<#5B9A\>\<#4E49\>\<#51FD\>\<#6570\><math|D\<of\>\<bbb-R\>\<rightarrow\><around*|{|0,1|}>>\<#5982\>\<#4E0B\>\<#FF1A\>
 
     <\equation*>
-      D<around*|(|x|)>=<choice|<tformat|<table|<row|<cell|1,>|<cell|x\<in\>\<bbb-Q\>,>>|<row|<cell|0,>|<cell|x\<in\>\<bbb-R\>\<setminus\>\<bbb-Q\>.>>>>>
+      D<around*|(|x|)>=<choice|<tformat|<table|<row|<cell|1,>|<cell|x\<in\>\<bbb-Q\>;>>|<row|<cell|0,>|<cell|x\<in\>\<bbb-R\>\<setminus\>\<bbb-Q\>.>>>>>
     </equation*>
 
-    该函数<math|D>叫做<dfn|Dirichlet函数>，也称<dfn|狄利克雷函数>.
+    \<#8BE5\>\<#51FD\>\<#6570\><math|D>\<#53EB\>\<#505A\><dfn|<name|Dirichlet>\<#51FD\>\<#6570\>>\<#FF0C\>\<#4E5F\>\<#79F0\><dfn|\<#72C4\>\<#5229\>\<#514B\>\<#96F7\>\<#51FD\>\<#6570\>>.
   </definition>
 </body>
 
