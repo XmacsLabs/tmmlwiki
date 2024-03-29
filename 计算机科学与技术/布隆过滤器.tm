@@ -1,19 +1,19 @@
-<TeXmacs|2.1.3>
+<TeXmacs|2.1.2>
 
 <style|<tuple|generic|chinese|preview-ref>>
 
 <\body>
-  <doc-data|<doc-title|布隆过滤器>>
+  <doc-data|<doc-title|\<#5E03\>\<#9686\>\<#8FC7\>\<#6EE4\>\<#5668\>>>
 
-  <dfn|布隆过滤器>是一种空间利用率高的概率数据结构，用于判断一个元素是否在一个集合中。Burton
-  Howard Bloom在1970年提出了布隆过滤器<cite|10.1145/362686.362692>这个概念。
+  <dfn|\<#5E03\>\<#9686\>\<#8FC7\>\<#6EE4\>\<#5668\>>\<#662F\>\<#4E00\>\<#79CD\>\<#7A7A\>\<#95F4\>\<#5229\>\<#7528\>\<#7387\>\<#9AD8\>\<#7684\>\<#6982\>\<#7387\>\<#6570\>\<#636E\>\<#7ED3\>\<#6784\>\<#FF0C\>\<#7528\>\<#4E8E\>\<#5224\>\<#65AD\>\<#4E00\>\<#4E2A\>\<#5143\>\<#7D20\>\<#662F\>\<#5426\>\<#5728\>\<#4E00\>\<#4E2A\>\<#96C6\>\<#5408\>\<#4E2D\>\<#3002\>Burton
+  Howard Bloom\<#5728\>1970\<#5E74\>\<#63D0\>\<#51FA\>\<#4E86\>\<#5E03\>\<#9686\>\<#8FC7\>\<#6EE4\>\<#5668\><cite|10.1145/362686.362692>\<#8FD9\>\<#4E2A\>\<#6982\>\<#5FF5\>\<#3002\>
 
   <\bibliography|bib|tm-plain|>
     <\bib-list|1>
       <bibitem*|1><label|bib-10.1145/362686.362692>Burton<nbsp>H.<nbsp>Bloom.
       <newblock>Space/time trade-offs in hash coding with allowable errors.
-      <newblock><with|font-shape|italic|Commun. ACM>, 13(7):422–426, jul
-      1970.<newblock>
+      <newblock><with|font-shape|italic|Commun. ACM>, 13(7):422\<#2013\>426,
+      jul 1970.<newblock>
     </bib-list>
   </bibliography>
 </body>
@@ -111,7 +111,7 @@
       10.1145/362686.362692
     </associate>
     <\associate|toc>
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|参考文献>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|\<#53C2\>\<#8003\>\<#6587\>\<#732E\>>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-1><vspace|0.5fn>
     </associate>
