@@ -1,0 +1,14 @@
+辅助角公式
+
+
+公式内容：
+a*sin x+b*cos x=sqrt(a^2+b^2)sin(x+arctan b/a),a>0 
+a*sin x+b*cos x=sqrt(a^2+b^2)cos(x-arctan a/b),b>0 
+该公式可将多个三角函数的和化成单个函数，可用于求解相关最值问题。
+证明. 设 cos φ=a/(sqrt(a^2+b^2)),φ∈(-π/2,π/2)，则 sin φ=b/(sqrt(a^2+b^2)),φ=arctan b/a
+a*sin x+b*cos x = sqrt(a^2+b^2)(a/(sqrt(a^2+b^2))*sin x+b/(sqrt(a^2+b^2))*cos x)
+                = sqrt(a^2+b^2)(cos φ*sin x+sin φ*cos x)
+                = sqrt(a^2+b^2)sin(x+φ)
+                = sqrt(a^2+b^2)sin(x+arctan b/a)
+
+□

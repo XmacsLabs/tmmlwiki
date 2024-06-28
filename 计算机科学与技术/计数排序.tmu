@@ -1,0 +1,29 @@
+计数排序
+
+
+计数排序是一种整数排序方法。Harold H. Seward在1954年发明了计数排序。
+function CoutingSort(input, k)
+count ← array of k+1 zeros
+output ← array of same length as input
+
+for i = 0 to length(input) - 1 do
+j = key(input[i])
+count[j] += 1
+end for
+
+for i = 1 to k do
+count[i] += count[i-1]
+end for
+
+for i = length(input) - 1 downto 0 do
+j = key(input[i])
+count[j] -= 1
+output[count[j]] = input[i]
+end for
+
+return output
+end function
+1  相关链接 
+
+•  Counting Sort Visualization (usfca.edu)
+•  Counting sort - Wikipedia

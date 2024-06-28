@@ -1,0 +1,29 @@
+宏（编程语言特性）
+
+
+注意. 宏和Notepad++,Word等软件中重复记录操作的宏不同。
+宏（英语：Macro）是匹配并替换代码内的某个部分，借此扩展代码的表达能力的编程语言特性。[1][2][3]不同于函数，编译器在语义分析阶段之前展开宏（英语：Macro Expansion），因此会把代码树变换成任何结构。如果过度使用宏，会导致程序难以调试。
+Lisp等函数式语言[2]、汇编语言[3]和C语言[1]都实现了具有上述功能的宏。
+C语言的宏 
+C语言的宏类似于正则表达式替换。编译器会搜索源代码，查找引用宏的位置，然后根据宏的定义，将对应的引用换成任意代码。有些宏带有参数，而参数对应于变量名等子模式。[1]
+C语言的宏可以用来定义常量或者内联方法，
+#define Cst 5;
+#define add(a, b)\
+        a + b;
+目前C++标准推荐使用const关键字来定义常量，用inline关键字来定义内联方法。
+const int Cst = 5;
+inline add(int a, int b){
+        return a+b;
+}
+C语言的宏还可以创建变量绑定，可以创建结构体（类型）定义。如果某个函数在其调用者空间内创建变量，一般的编程语言不会让这样的代码通过编译。比如下例：
+#define Construct(type) \
+               class type{ \
+               public int x; \
+        }
+#define Array(name, type, size) \
+        type name[size]
+这样的宏会对IDE的语义分析带来困难。
+参考文献 
+[1]  ISO/IEC 9899:1999 Programming language - C ISO, 1999.
+[2]  Guy SteeleCommon lisp the language Digital Press, 1989.P78
+[3]  宏语言和宏处理程序计算机软件及计算机应用, 1975.

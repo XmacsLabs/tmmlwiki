@@ -1,0 +1,43 @@
+等边三角形
+
+
+定义. 三条边长度相等的三角形，是等边三角形。等边三角形又称正三角形。
+
+
+图 1. 等边△ABC
+
+1  绘图 
+
+1.1  欧几里得 
+
+Eukleides]  % -width 0.4par
+A B C equilateral 6
+draw A.B
+draw B.C
+draw C.A
+
+label
+  A -135:
+  B -45:
+  C 90:
+end
+
+
+Eukleides]  
+
+1.2  渐近线 
+
+asy]  %asy -width 0.2par
+
+label("C", (1cm, 1.732cm), N);
+label("A", (0cm, 0), S);
+label("B", (2cm, 0), S);
+draw((1cm,1.732cm) -- (0,0) -- (2cm,0) -- cycle);
+
+
+asy]  
+
+2  参考资料 
+
+•  百度百科：等边三角形
+•  Wolfram Mathword: Equilateral Triangle

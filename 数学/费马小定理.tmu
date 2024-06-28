@@ -1,0 +1,21 @@
+费马小定理
+
+
+定理. (费马) p为质数，a为任意自然数，则a^p≡a (mod p)。
+证明. 对a使用数学归纳法。
+第一步：当a=1时，1^p≡1 (mod p) 成立。
+第二步：假设当a=n时，n^p≡n(mod p)成立。那么p|(n^p-n)。
+考虑(n+1)^p-(n+1)的情况：
+(n+1)^p-(n+1) = sum_(k=0)^pC^k_pn^k-n-1
+              = sum_(k=1)^(p-1)C_p^kn^k+(n^p-n)
+
+由于C^k_p=(p!)/(k!(p-k)!)且p为质数：
+p|C_p^k,1⩽k⩽p-1 
+所以：
+p|sum_(k=1)^(p-1)C_p^kn^k+(n^p-n) 
+也就是p|(n+1)^p-(n+1)也成立。
+根据数学归纳法，对于任意自然数a，a^p≡a(mod p)都成立。
+□
+1  相关链接 
+
+•  AoPS: Fermat's Little Theorem

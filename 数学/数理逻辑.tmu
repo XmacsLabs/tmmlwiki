@@ -1,0 +1,9 @@
+数理逻辑
+
+
+数理逻辑，又称符号逻辑，是用数学方法来处理逻辑的学问。
+我们想要使用数学方法来处理逻辑，遇到的第一个悖论就是：如何在避免使用逻辑的同时使用数学方法研究逻辑。这个悖论的解决方案是将被研究的逻辑和被我们使用的逻辑区分开来。前者可称为客体逻辑，后者可称为观测主体的逻辑。在研究逻辑时，我们需要一门语言来描述客体逻辑，这门语言就是客体语言。而观测者所用来描述观测主体的逻辑的语言，就是观测主体的语言，也称为元语言。
+参考资料 
+•  https://encyclopediaofmath.org/wiki/Mathematical_logic
+•  https://en.wikipedia.org/wiki/Mathematical_logic
+•  《Mathematical Logic》Stephen Cole Kleene

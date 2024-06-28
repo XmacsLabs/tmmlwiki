@@ -1,0 +1,6 @@
+布隆过滤器
+
+
+布隆过滤器是一种空间利用率高的概率数据结构，用于判断一个元素是否在一个集合中。Burton Howard Bloom在1970年提出了布隆过滤器[1]这个概念。
+参考文献 
+[1]  Burton H. Bloom. Space/time trade-offs in hash coding with allowable errors. Commun. ACM, 13(7):422–426, jul 1970.

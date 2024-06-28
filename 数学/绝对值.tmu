@@ -1,0 +1,21 @@
+绝对值
+
+
+定义. 一个数在数轴上对应的点到原点的距离叫做这个数的绝对值.
+1  数学软件 
+
+1.1  Octave 
+
+GNU Octave (6.2.0) Session in GNU TeXmacs
+Welcome to star and fork it at https://github.com/texmacs/octave
+>>  abs(1)
+
+1
+>>  abs(-1)
+
+1
+>>  
+
+2  参考书目 
+
+•  浙江教育出版社《数学》七年级上册2012年第3版
