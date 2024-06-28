@@ -1,14 +1,35 @@
-辅助角公式
+<TMU|<tuple|1.0.1|1.2.7>>
 
+<style|<tuple|generic|chinese>>
 
-公式内容：
-a*sin x+b*cos x=sqrt(a^2+b^2)sin(x+arctan b/a),a>0 
-a*sin x+b*cos x=sqrt(a^2+b^2)cos(x-arctan a/b),b>0 
-该公式可将多个三角函数的和化成单个函数，可用于求解相关最值问题。
-证明. 设 cos φ=a/(sqrt(a^2+b^2)),φ∈(-π/2,π/2)，则 sin φ=b/(sqrt(a^2+b^2)),φ=arctan b/a
-a*sin x+b*cos x = sqrt(a^2+b^2)(a/(sqrt(a^2+b^2))*sin x+b/(sqrt(a^2+b^2))*cos x)
-                = sqrt(a^2+b^2)(cos φ*sin x+sin φ*cos x)
-                = sqrt(a^2+b^2)sin(x+φ)
-                = sqrt(a^2+b^2)sin(x+arctan b/a)
+<\body>
+  <doc-data|<doc-title|辅助角公式>>
 
-□
+  公式内容：
+
+  <\equation*>
+    a*sin x+b*cos x=<sqrt|a<rsup|2>+b<rsup|2>>sin<around*|(|x+arctan <frac|b|a>|)>,a\<gtr\>0
+  </equation*>
+
+  <\equation*>
+    a*sin x+b*cos x=<sqrt|a<rsup|2>+b<rsup|2>>cos<around*|(|x-arctan <frac|a|b>|)>,b\<gtr\>0
+  </equation*>
+
+  该公式可将多个三角函数的和化成单个函数，可用于求解相关最值问题。
+
+  <\proof>
+    设 <math|cos \<varphi\>=<frac|a|<sqrt|a<rsup|2>+b<rsup|2>>>,\<varphi\>\<in\><around*|(|-<frac|\<pi\>|2>,<frac|\<pi\>|2>|)>>，则 <math|sin \<varphi\>=<frac|b|<sqrt|a<rsup|2>+b<rsup|2>>>,\<varphi\>=arctan <frac|b|a>>
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|a*sin x+b*cos x>|<cell|=>|<cell|<sqrt|a<rsup|2>+b<rsup|2>><around*|(|<frac|a|<sqrt|a<rsup|2>+b<rsup|2>>>*sin x+<frac|b|<sqrt|a<rsup|2>+b<rsup|2>>>*cos x|)>>>|<row|<cell|>|<cell|=>|<cell|<sqrt|a<rsup|2>+b<rsup|2>><around*|(|cos \<varphi\>*sin x+sin \<varphi\>*cos x|)>>>|<row|<cell|>|<cell|=>|<cell|<sqrt|a<rsup|2>+b<rsup|2>>sin<around*|(|x+\<varphi\>|)>>>|<row|<cell|>|<cell|=>|<cell|<sqrt|a<rsup|2>+b<rsup|2>>sin<around*|(|x+arctan <frac|b|a>|)>>>>>
+    </eqnarray*>
+
+    \;
+  </proof>
+</body>
+
+<\initial>
+  <\collection>
+    <associate|page-medium|paper>
+  </collection>
+</initial>

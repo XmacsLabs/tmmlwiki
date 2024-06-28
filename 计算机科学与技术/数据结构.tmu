@@ -1,4 +1,15 @@
-数据结构
+<TMU|<tuple|1.0.1|1.2.7>>
 
+<style|<tuple|generic|chinese>>
 
-数据结构是组织、管理、存储数据的方式，以满足高效访问和修改的需求。
+<\body>
+  <doc-data|<doc-title|数据结构>>
+
+  数据结构是组织、管理、存储数据的方式，以满足高效访问和修改的需求。
+</body>
+
+<\initial>
+  <\collection>
+    <associate|page-medium|paper>
+  </collection>
+</initial>

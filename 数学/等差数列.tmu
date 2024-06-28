@@ -1,6 +1,23 @@
-等差数列
+<TMU|<tuple|1.0.1|1.2.7>>
 
+<style|<tuple|generic|chinese>>
 
-定义. 满足∀n∈ℕ^∗,a_(n+1)=a_n+d的数列{a_n}称为等差数列. 这个常数d称为等差数列的公差.
-设公差为d，则等差数列的通项为
-a_n=a_1+(n-1)*d,n∈N^∗ 
+<\body>
+  <doc-data|<doc-title|等差数列>>
+
+  <\definition*>
+    满足<math|\<forall\>n\<in\>\<bbb-N\><rsup|\<ast\>>,a<rsub|n+1>=a<rsub|n>+d>的<cite*|数列><math|<around*|{|a<rsub|n>|}>>称为<dfn|等差数列>. 这个常数<math|d>称为等差数列的<dfn|公差>.
+  </definition*>
+
+  设公差为d，则等差数列的通项为
+
+  <\equation*>
+    a<rsub|n>=a<rsub|1>+<around*|(|n-1|)>*d,n\<in\>N<rsup|\<ast\>>
+  </equation*>
+</body>
+
+<\initial>
+  <\collection>
+    <associate|page-medium|paper>
+  </collection>
+</initial>

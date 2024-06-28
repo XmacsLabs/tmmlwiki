@@ -1,4 +1,17 @@
-有穷数列
+<TMU|<tuple|1.0.1|1.2.7>>
 
+<style|<tuple|generic|chinese>>
 
-定义. 项数有限的数列称为有穷数列.
+<\body>
+  <doc-data|<doc-title|有穷数列>>
+
+  <\definition*>
+    项数有限的<cite*|数列>称为<dfn|有穷数列>.
+  </definition*>
+</body>
+
+<\initial>
+  <\collection>
+    <associate|page-medium|paper>
+  </collection>
+</initial>

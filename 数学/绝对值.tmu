@@ -1,21 +1,77 @@
-绝对值
+<TMU|<tuple|1.0.1|1.2.7>>
 
+<style|<tuple|generic|chinese>>
 
-定义. 一个数在数轴上对应的点到原点的距离叫做这个数的绝对值.
-1  数学软件 
+<\body>
+  <doc-data|<doc-title|绝对值>>
 
-1.1  Octave 
+  <\definition*>
+    一个数在<cite*|数轴>上对应的点到<cite*|原点>的距离叫做这个数的<dfn|绝对值>.
+  </definition*>
 
-GNU Octave (6.2.0) Session in GNU TeXmacs
-Welcome to star and fork it at https://github.com/texmacs/octave
->>  abs(1)
+  <section|数学软件>
 
-1
->>  abs(-1)
+  <subsection|Octave>
 
-1
->>  
+  <\session|octave|default>
+    <\output>
+      GNU Octave (6.2.0) Session in GNU TeXmacs
 
-2  参考书目 
+      Welcome to star and fork it at https://github.com/texmacs/octave
+    </output>
 
-•  浙江教育出版社《数学》七年级上册2012年第3版
+    <\unfolded-io>
+      \<gtr\>\<gtr\>\ 
+    <|unfolded-io>
+      abs(1)
+    <|unfolded-io>
+      <with|mode|math|1>
+    </unfolded-io>
+
+    <\unfolded-io>
+      \<gtr\>\<gtr\>\ 
+    <|unfolded-io>
+      abs(-1)
+    <|unfolded-io>
+      <with|mode|math|1>
+    </unfolded-io>
+
+    <\input>
+      \<gtr\>\<gtr\>\ 
+    <|input>
+      \;
+    </input>
+  </session>
+
+  <section|参考书目>
+
+  <\itemize>
+    <item>浙江教育出版社《数学》七年级上册2012年第3版
+  </itemize>
+</body>
+
+<\initial>
+  <\collection>
+    <associate|page-medium|paper>
+  </collection>
+</initial>
+
+<\references>
+  <\collection>
+    <associate|auto-1|<tuple|1|1>>
+    <associate|auto-2|<tuple|1.1|1>>
+    <associate|auto-3|<tuple|2|1>>
+  </collection>
+</references>
+
+<\auxiliary>
+  <\collection>
+    <\associate|toc>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|1<space|2spc>数学软件> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>> <no-break><pageref|auto-1><vspace|0.5fn>
+
+      <with|par-left|<quote|1tab>|1.1<space|2spc>Octave <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>> <no-break><pageref|auto-2>>
+
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|2<space|2spc>参考书目> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>> <no-break><pageref|auto-3><vspace|0.5fn>
+    </associate>
+  </collection>
+</auxiliary>

@@ -1,13 +1,94 @@
-凸函数
+<TMU|<tuple|1.0.1|1.2.7>>
 
+<style|<tuple|generic|chinese|comment|preview-ref|smart-ref>>
 
-定义 1. 设f为区间I上的实函数. 如果对任何x_1,x_2∈I，以及任意的λ∈[0,1]，f都满足不等式
-f(λ*x_1+(1-λ)*x_2)⩽λ*f(x_1)+(1-λ)*f(x_2),  (1)
-则称f为I上的凸函数.
-如果上述不等式对任何不相等的x_1,x_2∈I及λ∈[0,1]不等号总成立，我们就说f在I上是严格凸函数.
-注意 2. 有些文献（如[1, 定义3.5.1]）会忽略条件x_1=x_2和λ=0或λ=1，因为在此时不等式(1)总成立. 因此我们可以给出凸函数如下等价定义：
-设f为区间I上的实函数. 如果对任何不相等的x_1,x_2∈I，以及任意的λ∈(0,1)，f都满足不等式
-f(λ*x_1+(1-λ)*x_2)⩽λ*f(x_1)+(1-λ)*f(x_2), 
-则称f为I上的凸函数.
-参考文献 
-[1]  常庚哲 与 史济怀. 数学分析教程.上册, 卷 . 中国科学技术大学出版社, 合肥, 3 版本, 8 2012.
+<\body>
+  <doc-data|<doc-title|凸函数>>
+
+  <\definition>
+    <label|dfn:convex function>设<math|f>为区间<math|I>上的实函数. 如果对任何<math|x<rsub|1>,x<rsub|2>\<in\>I>，以及任意的<math|\<lambda\>\<in\><around*|[|0,1|]>>，<math|f>都满足不等式
+
+    <\equation>
+      f<around*|(|\<lambda\>*x<rsub|1>+<around*|(|1-\<lambda\>|)>*x<rsub|2>|)>\<leqslant\>\<lambda\>*f<around*|(|x<rsub|1>|)>+<around*|(|1-\<lambda\>|)>*f<around*|(|x<rsub|2>|)>,<label|ineq:Jensen>
+    </equation>
+
+    则称<math|f>为<math|I>上的<dfn|凸函数>.
+
+    如果上述不等式对任何不相等的<math|x<rsub|1>,x<rsub|2>\<in\>I>及<math|\<lambda\>\<in\><around*|[|0,1|]>>不等号总成立，我们就说<math|f>在<math|I>上是<dfn|严格凸函数>.
+  </definition>
+
+  <\remark>
+    有些文献（如<cite-detail|常庚哲2012数学分析教程|定义3.5.1>）会忽略条件<math|x<rsub|1>=x<rsub|2>>和<math|\<lambda\>=0>或<math|\<lambda\>=1>，因为在此时不等式(<smart-ref|ineq:Jensen>)总成立. 因此我们可以给出凸函数如下等价定义：
+
+    设<math|f>为区间<math|I>上的实函数. 如果对任何不相等的<math|x<rsub|1>,x<rsub|2>\<in\>I>，以及任意的<math|\<lambda\>\<in\><around*|(|0,1|)>>，<math|f>都满足不等式
+
+    <\equation*>
+      f<around*|(|\<lambda\>*x<rsub|1>+<around*|(|1-\<lambda\>|)>*x<rsub|2>|)>\<leqslant\>\<lambda\>*f<around*|(|x<rsub|1>|)>+<around*|(|1-\<lambda\>|)>*f<around*|(|x<rsub|2>|)>,
+    </equation*>
+
+    则称<math|f>为<math|I>上的<dfn|凸函数>.
+  </remark>
+
+  <\bibliography|bib|tm-plain|>
+    <\bib-list|1>
+      <bibitem*|1><label|bib-常庚哲2012数学分析教程>常庚哲<localize| and >史济怀. <newblock><with|font-shape|italic|数学分析教程.上册>, <localize|volume><nbsp>. <newblock>中国科学技术大学出版社, 合肥, 3<localize| edition>, 8 2012.<newblock>
+    </bib-list>
+  </bibliography>
+</body>
+
+<\initial>
+  <\collection>
+    <associate|info-flag|detailed>
+    <associate|page-medium|paper>
+  </collection>
+</initial>
+
+<\attachments>
+  <\collection>
+    <\associate|bib-bibliography>
+      <\db-entry|+dcUGD5b1sTgpZoY|book|常庚哲2012数学分析教程>
+        <db-field|contributor|sadhen>
+
+        <db-field|modus|imported>
+
+        <db-field|date|1662864570>
+      <|db-entry>
+        <db-field|author|<name|常庚哲><name-sep><name|史济怀>>
+
+        <db-field|title|数学分析教程.上册>
+
+        <db-field|publisher|中国科学技术大学出版社>
+
+        <db-field|year|2012>
+
+        <db-field|address|合肥>
+
+        <db-field|edition|3>
+
+        <db-field|month|8>
+
+        <db-field|isbn|978-7-312-03009-3>
+      </db-entry>
+    </associate>
+  </collection>
+</attachments>
+
+<\references>
+  <\collection>
+    <associate|auto-1|<tuple|2|1>>
+    <associate|bib-常庚哲2012数学分析教程|<tuple|1|1>>
+    <associate|dfn:convex function|<tuple|1|1>>
+    <associate|ineq:Jensen|<tuple|1|1>>
+  </collection>
+</references>
+
+<\auxiliary>
+  <\collection>
+    <\associate|bib>
+      常庚哲2012数学分析教程
+    </associate>
+    <\associate|toc>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|参考文献> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>> <no-break><pageref|auto-1><vspace|0.5fn>
+    </associate>
+  </collection>
+</auxiliary>

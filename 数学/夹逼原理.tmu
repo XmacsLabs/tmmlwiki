@@ -1,7 +1,27 @@
-夹逼原理
+<TMU|<tuple|1.0.1|1.2.7>>
 
+<style|<tuple|generic|chinese>>
 
-定理. 给定实数列{a_n},{b_n}和{c_n}. 如果{a_n}和{c_n}收敛，对于几乎所有n∈ℕ满足a_n⩽b_n⩽c_n，且等式 
-lim_(n→∞)a_n=lim_(n→∞)c_n=a， 
-成立，那么{b_n}收敛且
-lim_(n→∞)b_n=a. 
+<\body>
+  <doc-data|<doc-title|夹逼原理>>
+
+  <\theorem*>
+    给定<cite*|实数列><math|<around*|{|a<rsub|n>|}>,<around*|{|b<rsub|n>|}>>和<math|<around*|{|c<rsub|n>|}>>. 如果<math|<around*|{|a<rsub|n>|}>>和<math|<around*|{|c<rsub|n>|}>><cite*|收敛>，对于几乎所有<math|n\<in\>\<bbb-N\>>满足<math|a<rsub|n>\<leqslant\>b<rsub|n>\<leqslant\>c<rsub|n>>，且等式\ 
+
+    <\equation*>
+      lim<rsub|n\<rightarrow\>\<infty\>>a<rsub|n>=lim<rsub|n\<rightarrow\>\<infty\>>c<rsub|n>=a，
+    </equation*>
+
+    成立，那么<math|<around*|{|b<rsub|n>|}>>收敛且
+
+    <\equation*>
+      lim<rsub|n\<rightarrow\>\<infty\>>b<rsub|n>=a.
+    </equation*>
+  </theorem*>
+</body>
+
+<\initial>
+  <\collection>
+    <associate|page-medium|paper>
+  </collection>
+</initial>

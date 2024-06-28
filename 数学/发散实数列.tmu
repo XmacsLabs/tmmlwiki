@@ -1,4 +1,11 @@
-发散实数列
+<TMU|<tuple|1.0.1|1.2.7>>
 
+<style|<tuple|generic|chinese>>
 
-定义. 不收敛的实数列称为发散实数列.
+<\body>
+  <doc-data|<doc-title|发散实数列>>
+
+  <\definition*>
+    不<cite*|收敛>的实数列称为<dfn|发散实数列>.
+  </definition*>
+</body>

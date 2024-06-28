@@ -1,4 +1,15 @@
-编译器
+<TMU|<tuple|1.0.1|1.2.7>>
 
+<style|<tuple|generic|chinese>>
 
-编译器是将计算机高级语言转化为机器可执行的机器语言的工具。
+<\body>
+  <doc-data|<doc-title|编译器>>
+
+  <dfn|编译器>是将计算机高级语言转化为机器可执行的机器语言的工具。
+</body>
+
+<\initial>
+  <\collection>
+    <associate|page-medium|paper>
+  </collection>
+</initial>

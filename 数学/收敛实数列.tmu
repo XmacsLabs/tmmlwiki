@@ -1,16 +1,61 @@
-收敛实数列
+<TMU|<tuple|1.0.1|1.2.7>>
 
+<style|<tuple|generic|chinese>>
 
-定义. 存在极限的实数列称为收敛实数列.
-性质 
-定义. 实数列{a_n}当n→∞时收敛于实数a是指：对任意的ε>0，总存在N∈ℕ^∗，使得此数列中除有限多项a_1,a_2,…,a_N可能是例外，其他的项均落在α的邻域内.
-定理 1. 如果实数列{a_n}收敛，则它只有一个极限。也就是说，收敛实数列的极限是唯一的.
-证明. 用反证法.假设收敛数列{a_n}有两个不同的极限a与b，不妨设a<b.令ε=(b-a)/2.
-对这个ε>0，必有N_1∈ℕ^∗，当n>N_1时一切a_n均在a的ε-邻域A_ε内. 
-同时，对于这个ε>0，必有N_2∈ℕ^∗，当n>N_2时一切a_n均在b的ε-邻域B_ε内.
-因此，当n>max(N_1,N_2)时，一切a_n都必须同时在A_ε和B_ε这两个开区间内，但因这两个开区间交集为空，这就产生的矛盾. 所以，只能有a=b，这就证明了极限是唯一的. □
-定理 2. 收敛实数列是有界的.
-定理 3. 设{a_n}与{b_n}都是收敛实数列，则{a_n+b_n}，{a_n*b_n}也是收敛实数列.如果lim_(n→∞)b_n≠0，则{a_n/b_n}也收敛，并且有
-(1)lim_(n→∞)(a_n±b_n)=lim_(n→∞)a_n+lim_(n→∞)b_n；
-(2) lim_(n→∞)a_n*b_n=lim_(n→∞)a_n*⋅lim_(n→∞)b_n，特别地，如果c是常数，便有lim_(n→∞)c*a_n=c*lim_(n→∞)a_n；
-(3) lim_(n→∞)(a_n)/(b_n)=(lim_(n→∞)a_n)/(lim_(n→∞)b_n)，其中lim_(n→∞)b_n≠0.
+<\body>
+  <doc-data|<doc-title|收敛实数列>>
+
+  <\definition*>
+    存在<cite*|极限>的实数列称为<dfn|收敛实数列>.
+  </definition*>
+
+  <section*|性质>
+
+  <\definition*>
+    实数列<math|<around*|{|a<rsub|n>|}>>当<math|n\<rightarrow\>\<infty\>>时<dfn|收敛>于实数<math|a>是指：对任意的<math|\<varepsilon\>\<gtr\>0>，总存在<math|N\<in\>\<bbb-N\><rsup|\<ast\>>>，使得此数列中除有限多项<math|a<rsub|1>,a<rsub|2>,\<ldots\>,a<rsub|N>>可能是例外，其他的项均落在<math|\<alpha\>>的<cite*|邻域>内.
+  </definition*>
+
+  <\theorem>
+    如果实数列<math|<around*|{|a<rsub|n>|}>>收敛，则它只有一个极限。也就是说，<cite*|收敛实数列>的<cite*|极限>是唯一的.
+  </theorem>
+
+  <\proof>
+    用反证法.假设收敛数列<math|<around*|{|a<rsub|n>|}>>有两个不同的极限<math|a>与<math|b>，不妨设<math|a\<less\>b>.令<math|\<varepsilon\>=<around*|(|b-a|)>/2>.
+
+    对这个<math|\<varepsilon\>\<gtr\>0>，必有<math|N<rsub|1>\<in\>\<bbb-N\><rsup|\<ast\>>>，当<math|n\<gtr\>N<rsub|1>>时一切<math|a<rsub|n>>均在<math|a>的<math|\<varepsilon\>>-邻域<math|A<rsub|\<varepsilon\>>>内.\ 
+
+    同时，对于这个<math|\<varepsilon\>\<gtr\>0>，必有<math|N<rsub|2>\<in\>\<bbb-N\><rsup|\<ast\>>>，当<math|n\<gtr\>N<rsub|2>>时一切<math|a<rsub|n>>均在<math|b>的<math|\<varepsilon\>>-邻域<math|B<rsub|\<varepsilon\>>>内.
+
+    因此，当<math|n\<gtr\>max<around*|(|N<rsub|1>,N<rsub|2>|)>>时，一切<math|a<rsub|n>>都必须同时在<math|A<rsub|\<varepsilon\>>>和<math|B<rsub|\<varepsilon\>>>这两个开区间内，但因这两个开区间交集为空，这就产生的矛盾. 所以，只能有<math|a=b>，这就证明了极限是唯一的.
+  </proof>
+
+  <\theorem>
+    <cite*|收敛实数列>是有界的.
+  </theorem>
+
+  <\theorem>
+    设<math|<around*|{|a<rsub|n>|}>>与<math|<around*|{|b<rsub|n>|}>>都是<cite*|收敛实数列>，则<math|<around*|{|a<rsub|n>+b<rsub|n>|}>>，<math|<around*|{|a<rsub|n>*b<rsub|n>|}>>也是<cite*|收敛实数列>.如果<math|<with|math-display|true|lim<rsub|n\<rightarrow\>\<infty\>>b<rsub|n>\<neq\>0>>，则<math|<around*|{|a<rsub|n>/b<rsub|n>|}>>也<cite*|收敛>，并且有
+
+    (1)<math|<with|math-display|true|lim<rsub|n\<rightarrow\>\<infty\>><around*|(|a<rsub|n>\<pm\>b<rsub|n>|)>=lim<rsub|n\<rightarrow\>\<infty\>>a<rsub|n>+lim<rsub|n\<rightarrow\>\<infty\>>b<rsub|n>>>；
+
+    (2) <math|<with|math-display|true|lim<rsub|n\<rightarrow\>\<infty\>>a<rsub|n>*b<rsub|n>=lim<rsub|n\<rightarrow\>\<infty\>>a<rsub|n>*\<cdot\>lim<rsub|n\<rightarrow\>\<infty\>>b<rsub|n>>>，特别地，如果<math|c>是常数，便有<math|<with|math-display|true|lim<rsub|n\<rightarrow\>\<infty\>>c*a<rsub|n>=c*lim<rsub|n\<rightarrow\>\<infty\>>a<rsub|n>>>；
+
+    (3) <math|<with|math-display|true|lim<rsub|n\<rightarrow\>\<infty\>><frac|a<rsub|n>|b<rsub|n>>=<frac|<with|math-display|true|lim<rsub|n\<rightarrow\>\<infty\>>a<rsub|n>>|<with|math-display|true|lim<rsub|n\<rightarrow\>\<infty\>>b<rsub|n>>>>>，其中<math|<with|math-display|true|lim<rsub|n\<rightarrow\>\<infty\>>b<rsub|n>\<neq\>0>>.
+  </theorem>
+
+  \;
+</body>
+
+<\references>
+  <\collection>
+    <associate|auto-1|<tuple|?|?>>
+  </collection>
+</references>
+
+<\auxiliary>
+  <\collection>
+    <\associate|toc>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|性质> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>> <no-break><pageref|auto-1><vspace|0.5fn>
+    </associate>
+  </collection>
+</auxiliary>

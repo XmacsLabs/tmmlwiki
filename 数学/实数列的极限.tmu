@@ -1,10 +1,83 @@
-实数列的极限
+<TMU|<tuple|1.0.1|1.2.7>>
 
+<style|<tuple|generic|chinese|preview-ref>>
 
-定义. 设{a_n}是一个实数列，a是一个实数.如果对任意给定的实数ε>0，存在一个N∈ℕ^∗，使得当n>N时，有
-|a_n-a|<ε, 
-就说实数列{a_n}当n趋向无穷大时以a为极限(参考[1, 定义1.2.1])，记成
-lim_(n→∞)a_n=a, 
-也可以简记为a_n→a(n→∞).我们也说实数列{a_n}收敛于a.
-参考文献 
-[1]  常庚哲 与 史济怀. 数学分析教程.上册, 卷 . 中国科学技术大学出版社, 合肥, 3 版本, 8 2012.
+<\body>
+  <doc-data|<doc-title|实数列的极限>>
+
+  <\definition*>
+    设<math|<around*|{|a<rsub|n>|}>>是一个实数列，<math|a>是一个实数.如果对任意给定的实数<math|\<varepsilon\>\<gtr\>0>，存在一个<math|N\<in\>\<bbb-N\><rsup|\<ast\>>>，使得当<math|n\<gtr\>N>时，有
+
+    <\equation*>
+      <around*|\||a<rsub|n>-a|\|>\<less\>\<varepsilon\>,
+    </equation*>
+
+    就说实数列<math|<around*|{|a<rsub|n>|}>>当n趋向无穷大时以<math|a>为<dfn|极限>(参考<cite-detail|常庚哲2012数学分析教程|定义1.2.1>)，记成
+
+    <\equation*>
+      lim<rsub|n\<rightarrow\>\<infty\>>a<rsub|n>=a,
+    </equation*>
+
+    也可以简记为<math|a<rsub|n>\<rightarrow\>a<around*|(|n\<rightarrow\>\<infty\>|)>>.我们也说实数列<math|<around*|{|a<rsub|n>|}>><cite*|收敛>于<math|a>.
+  </definition*>
+
+  <\bibliography|bib|tm-plain|>
+    <\bib-list|1>
+      <bibitem*|1><label|bib-常庚哲2012数学分析教程>常庚哲<localize| and >史济怀. <newblock><with|font-shape|italic|数学分析教程.上册>, <localize|volume><nbsp>. <newblock>中国科学技术大学出版社, 合肥, 3<localize| edition>, 8 2012.<newblock>
+    </bib-list>
+  </bibliography>
+</body>
+
+<\initial>
+  <\collection>
+    <associate|info-flag|detailed>
+  </collection>
+</initial>
+
+<\attachments>
+  <\collection>
+    <\associate|bib-bibliography>
+      <\db-entry|+dcUGD5b1sTgpZoY|book|常庚哲2012数学分析教程>
+        <db-field|contributor|sadhen>
+
+        <db-field|modus|imported>
+
+        <db-field|date|1662864570>
+      <|db-entry>
+        <db-field|author|<name|常庚哲><name-sep><name|史济怀>>
+
+        <db-field|title|数学分析教程.上册>
+
+        <db-field|publisher|中国科学技术大学出版社>
+
+        <db-field|year|2012>
+
+        <db-field|address|合肥>
+
+        <db-field|edition|3>
+
+        <db-field|month|8>
+
+        <db-field|isbn|978-7-312-03009-3>
+      </db-entry>
+    </associate>
+  </collection>
+</attachments>
+
+<\references>
+  <\collection>
+    <associate|auto-1|<tuple|?|?>>
+    <associate|bib-常庚哲2012数学分析教程|<tuple|1|?>>
+  </collection>
+</references>
+
+<\auxiliary>
+  <\collection>
+    <\associate|bib>
+      常庚哲2012数学分析教程
+    </associate>
+    <\associate|toc>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|参考文献> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>> <no-break><pageref|auto-1><vspace|0.5fn>
+    </associate>
+  </collection>
+</auxiliary>

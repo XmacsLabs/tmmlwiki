@@ -1,6 +1,31 @@
-有界数列
+<TMU|<tuple|1.0.1|1.2.7>>
 
+<style|<tuple|generic|chinese>>
 
-定义. 如果一个数列既有上界又有下界，则称它为有界数列.
-参考资料 
-•  常庚哲, 史济怀. 数学分析教程.上册[M]. 中国科学技术大学出版社, 2012.
+<\body>
+  <doc-data|<doc-title|有界数列>>
+
+  <\definition*>
+    如果一个数列既有上界又有下界，则称它为<dfn|有界数列>.
+  </definition*>
+
+  <section*|参考资料>
+
+  <\itemize>
+    <item>常庚哲, 史济怀. 数学分析教程.上册[M]. 中国科学技术大学出版社, 2012.
+  </itemize>
+</body>
+
+<\references>
+  <\collection>
+    <associate|auto-1|<tuple|?|?>>
+  </collection>
+</references>
+
+<\auxiliary>
+  <\collection>
+    <\associate|toc>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|参考资料> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>> <no-break><pageref|auto-1><vspace|0.5fn>
+    </associate>
+  </collection>
+</auxiliary>

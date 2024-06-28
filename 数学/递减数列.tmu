@@ -1,4 +1,17 @@
-递减数列
+<TMU|<tuple|1.0.1|1.2.7>>
 
+<style|<tuple|generic|chinese>>
 
-定义. 满足∀n∈ℕ^∗,a_n⩾a_(n+1)的数列{a_n}称为递减数列.
+<\body>
+  <doc-data|<doc-title|递减数列>>
+
+  <\definition*>
+    满足<math|\<forall\>n\<in\>\<bbb-N\><rsup|\<ast\>>,a<rsub|n>\<geqslant\>a<rsub|n+1>>的<cite*|数列><math|<around*|{|a<rsub|n>|}>>称为<dfn|递减数列>.
+  </definition*>
+</body>
+
+<\initial>
+  <\collection>
+    <associate|page-medium|paper>
+  </collection>
+</initial>
