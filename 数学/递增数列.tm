@@ -1,12 +1,12 @@
-<TeXmacs|2.1.3>
+<TeXmacs|2.1.2>
 
 <style|<tuple|generic|chinese>>
 
 <\body>
-  <doc-data|<doc-title|递增数列>>
+  <doc-data|<doc-title|\<#9012\>\<#589E\>\<#6570\>\<#5217\>>>
 
   <\definition*>
-    满足<math|\<forall\>n\<in\>\<bbb-N\><rsup|\<ast\>>,a<rsub|n+1>\<geqslant\>a<rsub|n>>的<cite*|数列><math|<around*|{|a<rsub|n>|}>>称为<dfn|递增数列>.
+    \<#6EE1\>\<#8DB3\><math|\<forall\>n\<in\>\<bbb-N\><rsup|\<ast\>>,a<rsub|n+1>\<geqslant\>a<rsub|n>>\<#7684\><cite*|\<#6570\>\<#5217\>><math|<around*|{|a<rsub|n>|}>>\<#79F0\>\<#4E3A\><dfn|\<#9012\>\<#589E\>\<#6570\>\<#5217\>>.
   </definition*>
 </body>
 

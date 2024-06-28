@@ -1,26 +1,26 @@
-<TeXmacs|2.1.3>
+<TeXmacs|2.1.2>
 
 <style|<tuple|generic|chinese>>
 
 <\body>
-  <doc-data|<doc-title|数列>>
+  <doc-data|<doc-title|\<#6570\>\<#5217\>>>
 
   <\definition*>
-    按照一定顺序排列的一列数称为<dfn|数列>，数列中的每一个数称为数列的<dfn|项>.
+    \<#6309\>\<#7167\>\<#4E00\>\<#5B9A\>\<#987A\>\<#5E8F\>\<#6392\>\<#5217\>\<#7684\>\<#4E00\>\<#5217\>\<#6570\>\<#79F0\>\<#4E3A\><dfn|\<#6570\>\<#5217\>>\<#FF0C\>\<#6570\>\<#5217\>\<#4E2D\>\<#7684\>\<#6BCF\>\<#4E00\>\<#4E2A\>\<#6570\>\<#79F0\>\<#4E3A\>\<#6570\>\<#5217\>\<#7684\><dfn|\<#9879\>>.
   </definition*>
 
-  数列的一般形式可以写成：
+  \<#6570\>\<#5217\>\<#7684\>\<#4E00\>\<#822C\>\<#5F62\>\<#5F0F\>\<#53EF\>\<#4EE5\>\<#5199\>\<#6210\>\<#FF1A\>
 
   <\equation*>
     a<rsub|1>,a<rsub|2>,a<rsub|3>,\<ldots\>,a<rsub|n>,\<ldots\>,
   </equation*>
 
-  简写为<math|<around*|{|a<rsub|n>|}>>.
-  其中<math|a<rsub|1>>被称为数列<math|<around*|{|a<rsub|n>|}>>的<dfn|首项>.
+  \<#7B80\>\<#5199\>\<#4E3A\><math|<around*|{|a<rsub|n>|}>>.
+  \<#5176\>\<#4E2D\><math|a<rsub|1>>\<#88AB\>\<#79F0\>\<#4E3A\>\<#6570\>\<#5217\><math|<around*|{|a<rsub|n>|}>>\<#7684\><dfn|\<#9996\>\<#9879\>>.
 
-  <section*|子定义>
+  <section*|\<#5B50\>\<#5B9A\>\<#4E49\>>
 
-  <tree|数列|无穷数列|有穷数列|递增数列|递减数列|常数列|等差数列>
+  <tree|\<#6570\>\<#5217\>|\<#65E0\>\<#7A77\>\<#6570\>\<#5217\>|\<#6709\>\<#7A77\>\<#6570\>\<#5217\>|\<#9012\>\<#589E\>\<#6570\>\<#5217\>|\<#9012\>\<#51CF\>\<#6570\>\<#5217\>|\<#5E38\>\<#6570\>\<#5217\>|\<#7B49\>\<#5DEE\>\<#6570\>\<#5217\>>
 
   \;
 </body>
@@ -33,6 +33,16 @@
 
 <\references>
   <\collection>
-    <associate|auto-1|<tuple|?|?>>
+    <associate|auto-1|<tuple|?|1>>
   </collection>
 </references>
+
+<\auxiliary>
+  <\collection>
+    <\associate|toc>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|\<#5B50\>\<#5B9A\>\<#4E49\>>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-1><vspace|0.5fn>
+    </associate>
+  </collection>
+</auxiliary>

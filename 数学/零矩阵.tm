@@ -1,13 +1,13 @@
-<TeXmacs|2.1.3>
+<TeXmacs|2.1.2>
 
 <style|<tuple|generic|chinese>>
 
 <\body>
-  <doc-data|<doc-title|零矩阵>>
+  <doc-data|<doc-title|\<#96F6\>\<#77E9\>\<#9635\>>>
 
-  <dfn|零矩阵>是所有元素都为0的矩阵。
+  <dfn|\<#96F6\>\<#77E9\>\<#9635\>>\<#662F\>\<#6240\>\<#6709\>\<#5143\>\<#7D20\>\<#90FD\>\<#4E3A\>0\<#7684\>\<#77E9\>\<#9635\>\<#3002\>
 
-  <section|数学软件>
+  <section|\<#6570\>\<#5B66\>\<#8F6F\>\<#4EF6\>>
 
   <subsection|Octave>
 
@@ -46,7 +46,7 @@
 <\auxiliary>
   <\collection>
     <\associate|toc>
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|1<space|2spc>数学软件>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|1<space|2spc>\<#6570\>\<#5B66\>\<#8F6F\>\<#4EF6\>>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-1><vspace|0.5fn>
 

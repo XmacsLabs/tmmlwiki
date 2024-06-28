@@ -1,12 +1,12 @@
-<TeXmacs|2.1.3>
+<TeXmacs|2.1.2>
 
 <style|<tuple|generic|chinese>>
 
 <\body>
-  <doc-data|<doc-title|发散实数列>>
+  <doc-data|<doc-title|\<#53D1\>\<#6563\>\<#5B9E\>\<#6570\>\<#5217\>>>
 
   <\definition*>
-    不<cite*|收敛>的实数列称为<dfn|发散实数列>.
+    \<#4E0D\><cite*|\<#6536\>\<#655B\>>\<#7684\>\<#5B9E\>\<#6570\>\<#5217\>\<#79F0\>\<#4E3A\><dfn|\<#53D1\>\<#6563\>\<#5B9E\>\<#6570\>\<#5217\>>.
   </definition*>
 </body>
 

@@ -1,22 +1,22 @@
-<TeXmacs|2.1.3>
+<TeXmacs|2.1.2>
 
 <style|<tuple|generic|chinese>>
 
 <\body>
-  <doc-data|<doc-title|抛物线>>
+  <doc-data|<doc-title|\<#629B\>\<#7269\>\<#7EBF\>>>
 
   <\definition*>
-    我们把平面内与一个定点F和一条定直线
-    <math|l>（<math|l>不经过点<math|F>）距离相等的点的轨迹叫做<dfn|抛物线>，点<math|F>叫做<dfn|抛物线的焦点>，直线<math|l>叫做<dfn|抛物线的准线>.
+    \<#6211\>\<#4EEC\>\<#628A\>\<#5E73\>\<#9762\>\<#5185\>\<#4E0E\>\<#4E00\>\<#4E2A\>\<#5B9A\>\<#70B9\>F\<#548C\>\<#4E00\>\<#6761\>\<#5B9A\>\<#76F4\>\<#7EBF\>
+    <math|l>\<#FF08\><math|l>\<#4E0D\>\<#7ECF\>\<#8FC7\>\<#70B9\><math|F>\<#FF09\>\<#8DDD\>\<#79BB\>\<#76F8\>\<#7B49\>\<#7684\>\<#70B9\>\<#7684\>\<#8F68\>\<#8FF9\>\<#53EB\>\<#505A\><dfn|\<#629B\>\<#7269\>\<#7EBF\>>\<#FF0C\>\<#70B9\><math|F>\<#53EB\>\<#505A\><dfn|\<#629B\>\<#7269\>\<#7EBF\>\<#7684\>\<#7126\>\<#70B9\>>\<#FF0C\>\<#76F4\>\<#7EBF\><math|l>\<#53EB\>\<#505A\><dfn|\<#629B\>\<#7269\>\<#7EBF\>\<#7684\>\<#51C6\>\<#7EBF\>>.
   </definition*>
 
-  设抛物线的焦准距为<math|p>，则抛物线的标准方程如下所示：
+  \<#8BBE\>\<#629B\>\<#7269\>\<#7EBF\>\<#7684\>\<#7126\>\<#51C6\>\<#8DDD\>\<#4E3A\><math|p>\<#FF0C\>\<#5219\>\<#629B\>\<#7269\>\<#7EBF\>\<#7684\>\<#6807\>\<#51C6\>\<#65B9\>\<#7A0B\>\<#5982\>\<#4E0B\>\<#6240\>\<#793A\>\<#FF1A\>
 
-  <\big-table|<tabular|<tformat|<cwith|5|5|1|1|cell-bborder|0ln>|<cwith|1|-1|1|1|cell-lborder|0ln>|<cwith|1|-1|1|1|cell-rborder|1ln>|<cwith|1|-1|2|2|cell-lborder|1ln>|<cwith|1|1|1|-1|cell-tborder|0ln>|<cwith|1|1|1|-1|cell-bborder|1ln>|<cwith|2|2|1|-1|cell-tborder|1ln>|<cwith|1|1|1|1|cell-lborder|0ln>|<cwith|1|1|4|4|cell-rborder|0ln>|<twith|table-halign|c>|<cwith|1|-1|2|2|cell-halign|c>|<cwith|1|-1|3|3|cell-halign|c>|<cwith|1|-1|4|4|cell-halign|c>|<table|<row|<cell|>|<cell|标准方程>|<cell|焦点坐标>|<cell|准线方程>>|<row|<cell|左开口抛物线>|<cell|<math|y<rsup|2>=2*p*x>>|<cell|<math|<around*|(|<frac|p|2>,0|)>>>|<cell|<math|x=-<frac|p|2>>>>|<row|<cell|右开口抛物线>|<cell|<math|y<rsup|2>=-2*p*x>>|<cell|<math|<around*|(|-<frac|p|2>,0|)>>>|<cell|<math|x=<frac|p|2>>>>|<row|<cell|上开口抛物线>|<cell|<math|x<rsup|2>=2*p*y>>|<cell|<math|<around*|(|0,<frac|p|2>|)>>>|<cell|<math|y=-<frac|p|2>>>>|<row|<cell|下开口抛物线>|<cell|<math|x<rsup|2>=-2*p*y>>|<cell|<math|<around*|(|0,-<frac|p|2>|)>>>|<cell|<math|y=<frac|p|2>>>>>>>>
-    抛物线的标准方程的四种形式
+  <\big-table|<tabular|<tformat|<cwith|5|5|1|1|cell-bborder|0ln>|<cwith|1|-1|1|1|cell-lborder|0ln>|<cwith|1|-1|1|1|cell-rborder|1ln>|<cwith|1|-1|2|2|cell-lborder|1ln>|<cwith|1|1|1|-1|cell-tborder|0ln>|<cwith|1|1|1|-1|cell-bborder|1ln>|<cwith|2|2|1|-1|cell-tborder|1ln>|<cwith|1|1|1|1|cell-lborder|0ln>|<cwith|1|1|4|4|cell-rborder|0ln>|<twith|table-halign|c>|<cwith|1|-1|2|2|cell-halign|c>|<cwith|1|-1|3|3|cell-halign|c>|<cwith|1|-1|4|4|cell-halign|c>|<table|<row|<cell|>|<cell|\<#6807\>\<#51C6\>\<#65B9\>\<#7A0B\>>|<cell|\<#7126\>\<#70B9\>\<#5750\>\<#6807\>>|<cell|\<#51C6\>\<#7EBF\>\<#65B9\>\<#7A0B\>>>|<row|<cell|\<#5DE6\>\<#5F00\>\<#53E3\>\<#629B\>\<#7269\>\<#7EBF\>>|<cell|<math|y<rsup|2>=2*p*x>>|<cell|<math|<around*|(|<frac|p|2>,0|)>>>|<cell|<math|x=-<frac|p|2>>>>|<row|<cell|\<#53F3\>\<#5F00\>\<#53E3\>\<#629B\>\<#7269\>\<#7EBF\>>|<cell|<math|y<rsup|2>=-2*p*x>>|<cell|<math|<around*|(|-<frac|p|2>,0|)>>>|<cell|<math|x=<frac|p|2>>>>|<row|<cell|\<#4E0A\>\<#5F00\>\<#53E3\>\<#629B\>\<#7269\>\<#7EBF\>>|<cell|<math|x<rsup|2>=2*p*y>>|<cell|<math|<around*|(|0,<frac|p|2>|)>>>|<cell|<math|y=-<frac|p|2>>>>|<row|<cell|\<#4E0B\>\<#5F00\>\<#53E3\>\<#629B\>\<#7269\>\<#7EBF\>>|<cell|<math|x<rsup|2>=-2*p*y>>|<cell|<math|<around*|(|0,-<frac|p|2>|)>>>|<cell|<math|y=<frac|p|2>>>>>>>>
+    \<#629B\>\<#7269\>\<#7EBF\>\<#7684\>\<#6807\>\<#51C6\>\<#65B9\>\<#7A0B\>\<#7684\>\<#56DB\>\<#79CD\>\<#5F62\>\<#5F0F\>
   </big-table>
 
-  例如，下图<math|y<rsup|2>=2*x>，其焦点<math|F>为<math|<around*|(|<frac|1|2>,0|)>>，准线为<math|x=-1>
+  \<#4F8B\>\<#5982\>\<#FF0C\>\<#4E0B\>\<#56FE\><math|y<rsup|2>=2*x>\<#FF0C\>\<#5176\>\<#7126\>\<#70B9\><math|F>\<#4E3A\><math|<around*|(|<frac|1|2>,0|)>>\<#FF0C\>\<#51C6\>\<#7EBF\>\<#4E3A\><math|x=-1>
 
   <\script-output|gnuplot|default>
     unset border
@@ -56,7 +56,7 @@
   <\collection>
     <\associate|table>
       <tuple|normal|<\surround|<hidden-binding|<tuple>|1>|>
-        抛物线的标准方程的四种形式
+        \<#629B\>\<#7269\>\<#7EBF\>\<#7684\>\<#6807\>\<#51C6\>\<#65B9\>\<#7A0B\>\<#7684\>\<#56DB\>\<#79CD\>\<#5F62\>\<#5F0F\>
       </surround>|<pageref|auto-1>>
     </associate>
   </collection>

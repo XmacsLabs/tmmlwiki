@@ -1,15 +1,15 @@
-<TeXmacs|2.1.3>
+<TeXmacs|2.1.2>
 
 <style|<tuple|generic|chinese>>
 
 <\body>
-  <doc-data|<doc-title|绝对值>>
+  <doc-data|<doc-title|\<#7EDD\>\<#5BF9\>\<#503C\>>>
 
   <\definition*>
-    一个数在<cite*|数轴>上对应的点到<cite*|原点>的距离叫做这个数的<dfn|绝对值>.
+    \<#4E00\>\<#4E2A\>\<#6570\>\<#5728\><cite*|\<#6570\>\<#8F74\>>\<#4E0A\>\<#5BF9\>\<#5E94\>\<#7684\>\<#70B9\>\<#5230\><cite*|\<#539F\>\<#70B9\>>\<#7684\>\<#8DDD\>\<#79BB\>\<#53EB\>\<#505A\>\<#8FD9\>\<#4E2A\>\<#6570\>\<#7684\><dfn|\<#7EDD\>\<#5BF9\>\<#503C\>>.
   </definition*>
 
-  <section|数学软件>
+  <section|\<#6570\>\<#5B66\>\<#8F6F\>\<#4EF6\>>
 
   <subsection|Octave>
 
@@ -43,10 +43,10 @@
     </input>
   </session>
 
-  <section|参考书目>
+  <section|\<#53C2\>\<#8003\>\<#4E66\>\<#76EE\>>
 
   <\itemize>
-    <item>浙江教育出版社《数学》七年级上册2012年第3版
+    <item>\<#6D59\>\<#6C5F\>\<#6559\>\<#80B2\>\<#51FA\>\<#7248\>\<#793E\>\<#300A\>\<#6570\>\<#5B66\>\<#300B\>\<#4E03\>\<#5E74\>\<#7EA7\>\<#4E0A\>\<#518C\>2012\<#5E74\>\<#7B2C\>3\<#7248\>
   </itemize>
 </body>
 
@@ -67,7 +67,7 @@
 <\auxiliary>
   <\collection>
     <\associate|toc>
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|1<space|2spc>数学软件>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|1<space|2spc>\<#6570\>\<#5B66\>\<#8F6F\>\<#4EF6\>>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-1><vspace|0.5fn>
 
@@ -75,7 +75,7 @@
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-2>>
 
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|2<space|2spc>参考书目>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|2<space|2spc>\<#53C2\>\<#8003\>\<#4E66\>\<#76EE\>>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-3><vspace|0.5fn>
     </associate>
